@@ -1,0 +1,9 @@
+{
+  "technique": "active_to_passive",
+  "model": "gemini",
+  "total_selections": 148,
+  "correct_selections": 29,
+  "accuracy": 19.594594594594593,
+  "original_wins": 75,
+  "technique_wins": 73
+}

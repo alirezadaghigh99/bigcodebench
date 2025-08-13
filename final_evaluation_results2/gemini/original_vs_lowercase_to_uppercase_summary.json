@@ -1,0 +1,9 @@
+{
+  "technique": "lowercase_to_uppercase",
+  "model": "gemini",
+  "total_selections": 148,
+  "correct_selections": 41,
+  "accuracy": 27.7027027027027,
+  "original_wins": 129,
+  "technique_wins": 19
+}

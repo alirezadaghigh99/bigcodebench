@@ -1,0 +1,57 @@
+{
+  "files_tested": 8,
+  "total_tasks": 1184,
+  "total_passed": 0,
+  "total_failed": 1184,
+  "overall_pass_rate": 0.0,
+  "file_summaries": {
+    "code_original_deepseek_bigcodebench_v1.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    },
+    "code_original_deepseek_bigcodebench_v2.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    },
+    "code_original_deepseek_bigcodebench_v3.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    },
+    "code_original_deepseek_bigcodebench_v4.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    },
+    "code_original_deepseek_bigcodebench_v5.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    },
+    "code_original_deepseek_bigcodebench_v6.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    },
+    "code_original_deepseek_bigcodebench_v7.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    },
+    "code_original_deepseek_bigcodebench_v8.jsonl": {
+      "total": 148,
+      "passed": 0,
+      "failed": 148,
+      "pass_rate": 0.0
+    }
+  }
+}

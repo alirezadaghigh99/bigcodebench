@@ -1,0 +1,38 @@
+{
+  "model_name": "o4-mini",
+  "total_combinations": 4,
+  "results": [
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 774,
+      "total_passed": 487,
+      "overall_pass_rate": 0.6291989664082688
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 755,
+      "total_passed": 462,
+      "overall_pass_rate": 0.6119205298013245
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 773,
+      "total_passed": 457,
+      "overall_pass_rate": 0.5912031047865459
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 748,
+      "total_passed": 445,
+      "overall_pass_rate": 0.5949197860962567
+    }
+  ]
+}

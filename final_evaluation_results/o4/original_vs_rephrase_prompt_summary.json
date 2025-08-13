@@ -1,0 +1,9 @@
+{
+  "technique": "rephrase_prompt",
+  "model": "o4",
+  "total_selections": 148,
+  "correct_selections": 0,
+  "accuracy": 0.0,
+  "original_wins": 72,
+  "technique_wins": 76
+}

@@ -1,0 +1,3 @@
+#!/home/aliredaq/Desktop/bigcodebench/cross_test_environment/bin/python
+from numba.pycc import main
+main()

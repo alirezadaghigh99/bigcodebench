@@ -1,0 +1,9 @@
+{
+  "technique": "verb_to_similar_verb",
+  "model": "o4-mini",
+  "total_selections": 148,
+  "correct_selections": 48,
+  "accuracy": 32.432432432432435,
+  "original_wins": 77,
+  "technique_wins": 71
+}

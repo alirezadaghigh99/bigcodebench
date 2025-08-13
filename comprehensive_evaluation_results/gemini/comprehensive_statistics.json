@@ -1,0 +1,55 @@
+{
+  "model": "gemini",
+  "total_tasks": 148,
+  "correct_predictions": 23,
+  "overall_accuracy": 15.54054054054054,
+  "technique_selection_counts": {
+    "lowercase_to_uppercase": 15,
+    "declarative_to_interrogative": 16,
+    "adversarial_function_name": 15,
+    "original": 20,
+    "active_to_passive": 23,
+    "task_function_name": 12,
+    "rephrase_prompt": 23,
+    "verb_to_similar_verb": 24
+  },
+  "technique_correct_counts": {
+    "active_to_passive": 6,
+    "verb_to_similar_verb": 5,
+    "declarative_to_interrogative": 1,
+    "adversarial_function_name": 3,
+    "original": 4,
+    "task_function_name": 2,
+    "rephrase_prompt": 1,
+    "lowercase_to_uppercase": 1
+  },
+  "technique_accuracy": {
+    "lowercase_to_uppercase": 6.666666666666667,
+    "declarative_to_interrogative": 6.25,
+    "adversarial_function_name": 20.0,
+    "original": 20.0,
+    "active_to_passive": 26.08695652173913,
+    "task_function_name": 16.666666666666664,
+    "rephrase_prompt": 4.3478260869565215,
+    "verb_to_similar_verb": 20.833333333333336
+  },
+  "tie_statistics": {
+    "total_ties": 82,
+    "tie_distribution": {
+      "1": 66,
+      "3": 7,
+      "8": 14,
+      "4": 12,
+      "2": 19,
+      "6": 11,
+      "7": 10,
+      "5": 9
+    }
+  },
+  "score_statistics": {
+    "min_score": 0,
+    "max_score": 70,
+    "avg_score": 21.222972972972972,
+    "zero_score_tasks": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "technique": "declarative_to_interrogative",
+  "model": "gemini",
+  "total_selections": 148,
+  "correct_selections": 44,
+  "accuracy": 29.72972972972973,
+  "original_wins": 132,
+  "technique_wins": 16
+}

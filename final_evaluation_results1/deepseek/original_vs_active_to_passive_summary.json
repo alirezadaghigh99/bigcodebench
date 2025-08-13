@@ -1,0 +1,9 @@
+{
+  "technique": "active_to_passive",
+  "model": "deepseek",
+  "total_selections": 148,
+  "correct_selections": 47,
+  "accuracy": 31.756756756756754,
+  "original_wins": 79,
+  "technique_wins": 69
+}

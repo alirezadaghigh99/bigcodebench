@@ -1,0 +1,9 @@
+{
+  "technique": "rephrase_prompt",
+  "model": "deepseek",
+  "total_selections": 148,
+  "correct_selections": 48,
+  "accuracy": 32.432432432432435,
+  "original_wins": 145,
+  "technique_wins": 3
+}

@@ -1,0 +1,32 @@
+{
+  "model_name": "o4-mini",
+  "total_files": 1,
+  "file_results": {
+    "code_original_o4-mini_bigcodebench_output_llm.jsonl": {
+      "total": 148,
+      "passed": 37,
+      "failed": 111,
+      "error_types": {
+        "Test Assertion Failure": 48,
+        "Other": 51,
+        "Timeout": 5,
+        "Test Execution Error": 5,
+        "Missing Module": 2
+      },
+      "pass_rate": 25.0
+    }
+  },
+  "overall_stats": {
+    "total_tests": 148,
+    "passed_tests": 37,
+    "failed_tests": 111,
+    "error_breakdown": {
+      "Test Assertion Failure": 48,
+      "Other": 51,
+      "Timeout": 5,
+      "Test Execution Error": 5,
+      "Missing Module": 2
+    },
+    "pass_rate": 25.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "technique": "active_to_passive",
+  "model": "o4-mini",
+  "total_selections": 148,
+  "correct_selections": 46,
+  "accuracy": 31.08108108108108,
+  "original_wins": 84,
+  "technique_wins": 64
+}

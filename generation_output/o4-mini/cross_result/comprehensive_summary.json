@@ -1,0 +1,518 @@
+{
+  "model_name": "o4-mini",
+  "total_combinations": 64,
+  "results": [
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 773,
+      "total_passed": 480,
+      "overall_pass_rate": 0.6209573091849935
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 774,
+      "total_passed": 488,
+      "overall_pass_rate": 0.6304909560723514
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 780,
+      "total_passed": 443,
+      "overall_pass_rate": 0.5679487179487179
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 797,
+      "total_passed": 476,
+      "overall_pass_rate": 0.5972396486825596
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 774,
+      "total_passed": 387,
+      "overall_pass_rate": 0.5
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 778,
+      "total_passed": 483,
+      "overall_pass_rate": 0.6208226221079691
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 764,
+      "total_passed": 462,
+      "overall_pass_rate": 0.6047120418848168
+    },
+    {
+      "code_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 770,
+      "total_passed": 364,
+      "overall_pass_rate": 0.4727272727272727
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 768,
+      "total_passed": 449,
+      "overall_pass_rate": 0.5846354166666666
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 779,
+      "total_passed": 466,
+      "overall_pass_rate": 0.5982028241335045
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 777,
+      "total_passed": 431,
+      "overall_pass_rate": 0.5546975546975547
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 787,
+      "total_passed": 451,
+      "overall_pass_rate": 0.5730622617534943
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 783,
+      "total_passed": 394,
+      "overall_pass_rate": 0.5031928480204342
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 774,
+      "total_passed": 475,
+      "overall_pass_rate": 0.6136950904392765
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 758,
+      "total_passed": 443,
+      "overall_pass_rate": 0.5844327176781002
+    },
+    {
+      "code_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 773,
+      "total_passed": 366,
+      "overall_pass_rate": 0.47347994825355755
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 767,
+      "total_passed": 454,
+      "overall_pass_rate": 0.5919165580182529
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 777,
+      "total_passed": 485,
+      "overall_pass_rate": 0.6241956241956242
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 781,
+      "total_passed": 441,
+      "overall_pass_rate": 0.5646606914212549
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 798,
+      "total_passed": 477,
+      "overall_pass_rate": 0.5977443609022557
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 785,
+      "total_passed": 403,
+      "overall_pass_rate": 0.513375796178344
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 780,
+      "total_passed": 486,
+      "overall_pass_rate": 0.6230769230769231
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 759,
+      "total_passed": 456,
+      "overall_pass_rate": 0.6007905138339921
+    },
+    {
+      "code_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 771,
+      "total_passed": 373,
+      "overall_pass_rate": 0.48378728923476005
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 776,
+      "total_passed": 450,
+      "overall_pass_rate": 0.5798969072164949
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 783,
+      "total_passed": 463,
+      "overall_pass_rate": 0.5913154533844189
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 787,
+      "total_passed": 444,
+      "overall_pass_rate": 0.5641677255400254
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 793,
+      "total_passed": 458,
+      "overall_pass_rate": 0.5775535939470365
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 786,
+      "total_passed": 390,
+      "overall_pass_rate": 0.4961832061068702
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 775,
+      "total_passed": 470,
+      "overall_pass_rate": 0.6064516129032258
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 762,
+      "total_passed": 462,
+      "overall_pass_rate": 0.6062992125984252
+    },
+    {
+      "code_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 772,
+      "total_passed": 365,
+      "overall_pass_rate": 0.4727979274611399
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 770,
+      "total_passed": 364,
+      "overall_pass_rate": 0.4727272727272727
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 773,
+      "total_passed": 366,
+      "overall_pass_rate": 0.47347994825355755
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 780,
+      "total_passed": 338,
+      "overall_pass_rate": 0.43333333333333335
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 790,
+      "total_passed": 333,
+      "overall_pass_rate": 0.4215189873417722
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 781,
+      "total_passed": 300,
+      "overall_pass_rate": 0.38412291933418696
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 783,
+      "total_passed": 359,
+      "overall_pass_rate": 0.45849297573435505
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 764,
+      "total_passed": 350,
+      "overall_pass_rate": 0.4581151832460733
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 750,
+      "total_passed": 449,
+      "overall_pass_rate": 0.5986666666666667
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 765,
+      "total_passed": 460,
+      "overall_pass_rate": 0.6013071895424836
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 764,
+      "total_passed": 455,
+      "overall_pass_rate": 0.5955497382198953
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 773,
+      "total_passed": 447,
+      "overall_pass_rate": 0.5782664941785253
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 782,
+      "total_passed": 440,
+      "overall_pass_rate": 0.5626598465473146
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 776,
+      "total_passed": 386,
+      "overall_pass_rate": 0.49742268041237114
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 776,
+      "total_passed": 450,
+      "overall_pass_rate": 0.5798969072164949
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 750,
+      "total_passed": 442,
+      "overall_pass_rate": 0.5893333333333334
+    },
+    {
+      "code_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 759,
+      "total_passed": 361,
+      "overall_pass_rate": 0.4756258234519104
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 758,
+      "total_passed": 470,
+      "overall_pass_rate": 0.6200527704485488
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 765,
+      "total_passed": 459,
+      "overall_pass_rate": 0.6
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 773,
+      "total_passed": 419,
+      "overall_pass_rate": 0.5420439844760673
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 781,
+      "total_passed": 446,
+      "overall_pass_rate": 0.5710627400768246
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 768,
+      "total_passed": 383,
+      "overall_pass_rate": 0.4986979166666667
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 774,
+      "total_passed": 444,
+      "overall_pass_rate": 0.5736434108527132
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 749,
+      "total_passed": 440,
+      "overall_pass_rate": 0.5874499332443258
+    },
+    {
+      "code_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 767,
+      "total_passed": 358,
+      "overall_pass_rate": 0.4667535853976532
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "rephrase_prompt_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 767,
+      "total_passed": 442,
+      "overall_pass_rate": 0.576271186440678
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "original_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 770,
+      "total_passed": 456,
+      "overall_pass_rate": 0.5922077922077922
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "verb_to_similar_verb_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 772,
+      "total_passed": 407,
+      "overall_pass_rate": 0.5272020725388601
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "adversarial_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 793,
+      "total_passed": 425,
+      "overall_pass_rate": 0.5359394703656999
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 761,
+      "total_passed": 371,
+      "overall_pass_rate": 0.48751642575558474
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "declarative_to_interrogative_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 778,
+      "total_passed": 434,
+      "overall_pass_rate": 0.5578406169665809
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "active_to_passive_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 754,
+      "total_passed": 430,
+      "overall_pass_rate": 0.5702917771883289
+    },
+    {
+      "code_technique": "task_function_name_o4-mini_bigcodebench_output_llm1",
+      "test_technique": "lowercase_to_uppercase_o4-mini_bigcodebench_output_llm1",
+      "total_tasks": 148,
+      "total_tests": 777,
+      "total_passed": 360,
+      "overall_pass_rate": 0.46332046332046334
+    }
+  ]
+}

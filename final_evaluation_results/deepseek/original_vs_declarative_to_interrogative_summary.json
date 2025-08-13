@@ -1,0 +1,9 @@
+{
+  "technique": "declarative_to_interrogative",
+  "model": "deepseek",
+  "total_selections": 148,
+  "correct_selections": 39,
+  "accuracy": 26.351351351351347,
+  "original_wins": 79,
+  "technique_wins": 69
+}
