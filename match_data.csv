@@ -1,0 +1,23 @@
+team,goals,penalties
+Additional,{},{}
+Team 2,Team A,Team A
+Team 3,Team B,Team C
+Team 4,Team A,Team A
+Team 5,Team B,Team C
+Team 6,Team A,Team A
+Team 7,Team B,Team C
+,{},{}
+,"{'Team A': 3, 'Team B': 2}","{'Team A': 1, 'Team C': 2}"
+,{},{}
+,"{'Team A': 2, 'Team B': 3}","{'Team A': 1, 'Team C': 2}"
+,"{'Team A': -2, 'Team B': 3}","{'Team A': 1, 'Team C': -2}"
+,{},{}
+,"{'Team A': 3, 'Team B': 2}","{'Team A': 1, 'Team C': 2}"
+,{},{}
+,"{'Team A': 2, 'Team B': 3}","{'Team A': 1, 'Team C': 2}"
+,"{'Team A': -2, 'Team B': 3}","{'Team A': 1, 'Team C': -2}"
+,{},{}
+,"{'Team A': 3, 'Team B': 2}","{'Team A': 1, 'Team C': 2}"
+,{},{}
+,"{'Team A': 2, 'Team B': 3}","{'Team A': 1, 'Team C': 2}"
+,"{'Team A': -2, 'Team B': 3}","{'Team A': 1, 'Team C': -2}"

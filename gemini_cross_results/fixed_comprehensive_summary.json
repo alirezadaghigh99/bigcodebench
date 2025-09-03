@@ -1,0 +1,2458 @@
+{
+  "overall_statistics": {
+    "total_combinations": 306,
+    "total_tests": 143573,
+    "total_passed": 18518,
+    "overall_pass_rate": 0.1289796828094419
+  },
+  "combination_results": [
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 434,
+      "total_passed": 57,
+      "overall_pass_rate": 0.1313364055299539
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 493,
+      "total_passed": 45,
+      "overall_pass_rate": 0.09127789046653144
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 472,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10805084745762712
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 525,
+      "total_passed": 50,
+      "overall_pass_rate": 0.09523809523809523
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 416,
+      "total_passed": 56,
+      "overall_pass_rate": 0.1346153846153846
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 456,
+      "total_passed": 70,
+      "overall_pass_rate": 0.15350877192982457
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 437,
+      "total_passed": 86,
+      "overall_pass_rate": 0.19679633867276888
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 426,
+      "total_passed": 64,
+      "overall_pass_rate": 0.15023474178403756
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 474,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10337552742616034
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 441,
+      "total_passed": 45,
+      "overall_pass_rate": 0.10204081632653061
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 451,
+      "total_passed": 52,
+      "overall_pass_rate": 0.11529933481152993
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 579,
+      "total_passed": 128,
+      "overall_pass_rate": 0.22107081174438686
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 534,
+      "total_passed": 93,
+      "overall_pass_rate": 0.17415730337078653
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 444,
+      "total_passed": 59,
+      "overall_pass_rate": 0.13288288288288289
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 502,
+      "total_passed": 46,
+      "overall_pass_rate": 0.09163346613545817
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 493,
+      "total_passed": 63,
+      "overall_pass_rate": 0.12778904665314403
+    },
+    {
+      "code_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 439,
+      "total_passed": 73,
+      "overall_pass_rate": 0.1662870159453303
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 476,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10294117647058823
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 441,
+      "total_passed": 57,
+      "overall_pass_rate": 0.1292517006802721
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 501,
+      "total_passed": 59,
+      "overall_pass_rate": 0.11776447105788423
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 516,
+      "total_passed": 52,
+      "overall_pass_rate": 0.10077519379844961
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 55,
+      "overall_pass_rate": 0.125
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 431,
+      "total_passed": 51,
+      "overall_pass_rate": 0.11832946635730858
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 427,
+      "total_passed": 67,
+      "overall_pass_rate": 0.15690866510538642
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 402,
+      "total_passed": 60,
+      "overall_pass_rate": 0.14925373134328357
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 46,
+      "overall_pass_rate": 0.10454545454545454
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 487,
+      "total_passed": 56,
+      "overall_pass_rate": 0.11498973305954825
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 471,
+      "total_passed": 54,
+      "overall_pass_rate": 0.11464968152866242
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 573,
+      "total_passed": 129,
+      "overall_pass_rate": 0.225130890052356
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 480,
+      "total_passed": 61,
+      "overall_pass_rate": 0.12708333333333333
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 418,
+      "total_passed": 42,
+      "overall_pass_rate": 0.10047846889952153
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 492,
+      "total_passed": 52,
+      "overall_pass_rate": 0.10569105691056911
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 504,
+      "total_passed": 75,
+      "overall_pass_rate": 0.1488095238095238
+    },
+    {
+      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 418,
+      "total_passed": 60,
+      "overall_pass_rate": 0.14354066985645933
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 470,
+      "total_passed": 48,
+      "overall_pass_rate": 0.10212765957446808
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 419,
+      "total_passed": 56,
+      "overall_pass_rate": 0.13365155131264916
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 489,
+      "total_passed": 47,
+      "overall_pass_rate": 0.09611451942740286
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 514,
+      "total_passed": 51,
+      "overall_pass_rate": 0.09922178988326848
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 446,
+      "total_passed": 61,
+      "overall_pass_rate": 0.1367713004484305
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 447,
+      "total_passed": 67,
+      "overall_pass_rate": 0.14988814317673377
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 427,
+      "total_passed": 51,
+      "overall_pass_rate": 0.11943793911007025
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 421,
+      "total_passed": 73,
+      "overall_pass_rate": 0.17339667458432304
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 434,
+      "total_passed": 47,
+      "overall_pass_rate": 0.10829493087557604
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 461,
+      "total_passed": 45,
+      "overall_pass_rate": 0.09761388286334056
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 464,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10560344827586207
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 562,
+      "total_passed": 129,
+      "overall_pass_rate": 0.22953736654804271
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 460,
+      "total_passed": 54,
+      "overall_pass_rate": 0.11739130434782609
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 427,
+      "total_passed": 47,
+      "overall_pass_rate": 0.11007025761124122
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 486,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10493827160493827
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 68,
+      "overall_pass_rate": 0.14137214137214138
+    },
+    {
+      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 421,
+      "total_passed": 55,
+      "overall_pass_rate": 0.13064133016627077
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 430,
+      "total_passed": 63,
+      "overall_pass_rate": 0.14651162790697675
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 472,
+      "total_passed": 55,
+      "overall_pass_rate": 0.11652542372881355
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 490,
+      "total_passed": 44,
+      "overall_pass_rate": 0.08979591836734693
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 517,
+      "total_passed": 60,
+      "overall_pass_rate": 0.11605415860735009
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 54,
+      "overall_pass_rate": 0.12272727272727273
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 426,
+      "total_passed": 54,
+      "overall_pass_rate": 0.1267605633802817
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 409,
+      "total_passed": 66,
+      "overall_pass_rate": 0.16136919315403422
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 433,
+      "total_passed": 66,
+      "overall_pass_rate": 0.15242494226327943
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 463,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10583153347732181
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 47,
+      "overall_pass_rate": 0.10681818181818181
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 466,
+      "total_passed": 57,
+      "overall_pass_rate": 0.1223175965665236
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 586,
+      "total_passed": 135,
+      "overall_pass_rate": 0.23037542662116042
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 483,
+      "total_passed": 54,
+      "overall_pass_rate": 0.11180124223602485
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 415,
+      "total_passed": 34,
+      "overall_pass_rate": 0.0819277108433735
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 489,
+      "total_passed": 53,
+      "overall_pass_rate": 0.1083844580777096
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 490,
+      "total_passed": 62,
+      "overall_pass_rate": 0.12653061224489795
+    },
+    {
+      "code_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 428,
+      "total_passed": 71,
+      "overall_pass_rate": 0.1658878504672897
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 474,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10337552742616034
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 437,
+      "total_passed": 62,
+      "overall_pass_rate": 0.14187643020594964
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 501,
+      "total_passed": 43,
+      "overall_pass_rate": 0.08582834331337326
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 514,
+      "total_passed": 52,
+      "overall_pass_rate": 0.10116731517509728
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 65,
+      "overall_pass_rate": 0.14772727272727273
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 428,
+      "total_passed": 55,
+      "overall_pass_rate": 0.12850467289719625
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 433,
+      "total_passed": 63,
+      "overall_pass_rate": 0.14549653579676675
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 410,
+      "total_passed": 58,
+      "overall_pass_rate": 0.14146341463414633
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10187110187110188
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 444,
+      "total_passed": 46,
+      "overall_pass_rate": 0.1036036036036036
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 477,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10482180293501048
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 565,
+      "total_passed": 127,
+      "overall_pass_rate": 0.2247787610619469
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 471,
+      "total_passed": 53,
+      "overall_pass_rate": 0.11252653927813164
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 423,
+      "total_passed": 42,
+      "overall_pass_rate": 0.09929078014184398
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 53,
+      "overall_pass_rate": 0.1101871101871102
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 493,
+      "total_passed": 69,
+      "overall_pass_rate": 0.13995943204868155
+    },
+    {
+      "code_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 420,
+      "total_passed": 58,
+      "overall_pass_rate": 0.1380952380952381
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 471,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10615711252653928
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 436,
+      "total_passed": 54,
+      "overall_pass_rate": 0.12385321100917432
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 486,
+      "total_passed": 43,
+      "overall_pass_rate": 0.08847736625514403
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 508,
+      "total_passed": 53,
+      "overall_pass_rate": 0.10433070866141732
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 478,
+      "total_passed": 86,
+      "overall_pass_rate": 0.1799163179916318
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 435,
+      "total_passed": 50,
+      "overall_pass_rate": 0.11494252873563218
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 442,
+      "total_passed": 88,
+      "overall_pass_rate": 0.19909502262443438
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 438,
+      "total_passed": 62,
+      "overall_pass_rate": 0.1415525114155251
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 455,
+      "total_passed": 46,
+      "overall_pass_rate": 0.1010989010989011
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 459,
+      "total_passed": 52,
+      "overall_pass_rate": 0.11328976034858387
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 585,
+      "total_passed": 134,
+      "overall_pass_rate": 0.22905982905982905
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 460,
+      "total_passed": 52,
+      "overall_pass_rate": 0.11304347826086956
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 526,
+      "total_passed": 103,
+      "overall_pass_rate": 0.1958174904942966
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 452,
+      "total_passed": 63,
+      "overall_pass_rate": 0.13938053097345132
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 505,
+      "total_passed": 55,
+      "overall_pass_rate": 0.10891089108910891
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 446,
+      "total_passed": 89,
+      "overall_pass_rate": 0.19955156950672645
+    },
+    {
+      "code_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 475,
+      "total_passed": 65,
+      "overall_pass_rate": 0.1368421052631579
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 479,
+      "total_passed": 49,
+      "overall_pass_rate": 0.1022964509394572
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 468,
+      "total_passed": 72,
+      "overall_pass_rate": 0.15384615384615385
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 492,
+      "total_passed": 42,
+      "overall_pass_rate": 0.08536585365853659
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 527,
+      "total_passed": 51,
+      "overall_pass_rate": 0.0967741935483871
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 450,
+      "total_passed": 58,
+      "overall_pass_rate": 0.1288888888888889
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 445,
+      "total_passed": 52,
+      "overall_pass_rate": 0.11685393258426967
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 411,
+      "total_passed": 60,
+      "overall_pass_rate": 0.145985401459854
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 69,
+      "overall_pass_rate": 0.15681818181818183
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 467,
+      "total_passed": 52,
+      "overall_pass_rate": 0.11134903640256959
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 493,
+      "total_passed": 52,
+      "overall_pass_rate": 0.10547667342799188
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 486,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10082304526748971
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 582,
+      "total_passed": 126,
+      "overall_pass_rate": 0.21649484536082475
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 479,
+      "total_passed": 55,
+      "overall_pass_rate": 0.11482254697286012
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 469,
+      "total_passed": 38,
+      "overall_pass_rate": 0.08102345415778252
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 491,
+      "total_passed": 62,
+      "overall_pass_rate": 0.12627291242362526
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 504,
+      "total_passed": 52,
+      "overall_pass_rate": 0.10317460317460317
+    },
+    {
+      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 61,
+      "overall_pass_rate": 0.13863636363636364
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 459,
+      "total_passed": 46,
+      "overall_pass_rate": 0.10021786492374728
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 428,
+      "total_passed": 58,
+      "overall_pass_rate": 0.13551401869158877
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 484,
+      "total_passed": 45,
+      "overall_pass_rate": 0.09297520661157024
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 507,
+      "total_passed": 52,
+      "overall_pass_rate": 0.10256410256410256
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 441,
+      "total_passed": 50,
+      "overall_pass_rate": 0.11337868480725624
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 433,
+      "total_passed": 53,
+      "overall_pass_rate": 0.12240184757505773
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 420,
+      "total_passed": 59,
+      "overall_pass_rate": 0.14047619047619048
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 436,
+      "total_passed": 65,
+      "overall_pass_rate": 0.14908256880733944
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 444,
+      "total_passed": 45,
+      "overall_pass_rate": 0.10135135135135136
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 478,
+      "total_passed": 48,
+      "overall_pass_rate": 0.100418410041841
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 472,
+      "total_passed": 49,
+      "overall_pass_rate": 0.1038135593220339
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 572,
+      "total_passed": 125,
+      "overall_pass_rate": 0.21853146853146854
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 470,
+      "total_passed": 45,
+      "overall_pass_rate": 0.09574468085106383
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 434,
+      "total_passed": 39,
+      "overall_pass_rate": 0.08986175115207373
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10187110187110188
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 497,
+      "total_passed": 70,
+      "overall_pass_rate": 0.14084507042253522
+    },
+    {
+      "code_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 420,
+      "total_passed": 63,
+      "overall_pass_rate": 0.15
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 467,
+      "total_passed": 48,
+      "overall_pass_rate": 0.10278372591006424
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 434,
+      "total_passed": 53,
+      "overall_pass_rate": 0.12211981566820276
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 484,
+      "total_passed": 46,
+      "overall_pass_rate": 0.09504132231404959
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 509,
+      "total_passed": 52,
+      "overall_pass_rate": 0.10216110019646366
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 446,
+      "total_passed": 68,
+      "overall_pass_rate": 0.15246636771300448
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 414,
+      "total_passed": 52,
+      "overall_pass_rate": 0.12560386473429952
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 437,
+      "total_passed": 60,
+      "overall_pass_rate": 0.13729977116704806
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 420,
+      "total_passed": 74,
+      "overall_pass_rate": 0.1761904761904762
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 437,
+      "total_passed": 46,
+      "overall_pass_rate": 0.10526315789473684
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 467,
+      "total_passed": 59,
+      "overall_pass_rate": 0.12633832976445397
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 549,
+      "total_passed": 128,
+      "overall_pass_rate": 0.2331511839708561
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 486,
+      "total_passed": 50,
+      "overall_pass_rate": 0.102880658436214
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 499,
+      "total_passed": 92,
+      "overall_pass_rate": 0.1843687374749499
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 419,
+      "total_passed": 54,
+      "overall_pass_rate": 0.1288782816229117
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 488,
+      "total_passed": 72,
+      "overall_pass_rate": 0.14754098360655737
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 479,
+      "total_passed": 48,
+      "overall_pass_rate": 0.10020876826722339
+    },
+    {
+      "code_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 437,
+      "total_passed": 70,
+      "overall_pass_rate": 0.16018306636155608
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 482,
+      "total_passed": 54,
+      "overall_pass_rate": 0.11203319502074689
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 430,
+      "total_passed": 57,
+      "overall_pass_rate": 0.1325581395348837
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 492,
+      "total_passed": 48,
+      "overall_pass_rate": 0.0975609756097561
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 525,
+      "total_passed": 51,
+      "overall_pass_rate": 0.09714285714285714
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 448,
+      "total_passed": 57,
+      "overall_pass_rate": 0.12723214285714285
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 448,
+      "total_passed": 62,
+      "overall_pass_rate": 0.13839285714285715
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 402,
+      "total_passed": 61,
+      "overall_pass_rate": 0.1517412935323383
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 444,
+      "total_passed": 72,
+      "overall_pass_rate": 0.16216216216216217
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 443,
+      "total_passed": 47,
+      "overall_pass_rate": 0.10609480812641084
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 56,
+      "overall_pass_rate": 0.11642411642411643
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10395010395010396
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 577,
+      "total_passed": 128,
+      "overall_pass_rate": 0.2218370883882149
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 476,
+      "total_passed": 55,
+      "overall_pass_rate": 0.11554621848739496
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 420,
+      "total_passed": 37,
+      "overall_pass_rate": 0.0880952380952381
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 494,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10121457489878542
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 515,
+      "total_passed": 82,
+      "overall_pass_rate": 0.15922330097087378
+    },
+    {
+      "code_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 419,
+      "total_passed": 58,
+      "overall_pass_rate": 0.13842482100238662
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 474,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10759493670886076
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 446,
+      "total_passed": 59,
+      "overall_pass_rate": 0.13228699551569506
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 490,
+      "total_passed": 46,
+      "overall_pass_rate": 0.09387755102040816
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 544,
+      "total_passed": 65,
+      "overall_pass_rate": 0.11948529411764706
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 453,
+      "total_passed": 67,
+      "overall_pass_rate": 0.1479028697571744
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 430,
+      "total_passed": 53,
+      "overall_pass_rate": 0.12325581395348838
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 414,
+      "total_passed": 58,
+      "overall_pass_rate": 0.14009661835748793
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 436,
+      "total_passed": 64,
+      "overall_pass_rate": 0.14678899082568808
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 449,
+      "total_passed": 47,
+      "overall_pass_rate": 0.10467706013363029
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 487,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10472279260780287
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 581,
+      "total_passed": 128,
+      "overall_pass_rate": 0.22030981067125646
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 478,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10669456066945607
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 522,
+      "total_passed": 94,
+      "overall_pass_rate": 0.18007662835249041
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 420,
+      "total_passed": 48,
+      "overall_pass_rate": 0.11428571428571428
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 514,
+      "total_passed": 59,
+      "overall_pass_rate": 0.11478599221789883
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 506,
+      "total_passed": 66,
+      "overall_pass_rate": 0.13043478260869565
+    },
+    {
+      "code_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 428,
+      "total_passed": 58,
+      "overall_pass_rate": 0.13551401869158877
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 462,
+      "total_passed": 45,
+      "overall_pass_rate": 0.09740259740259741
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 406,
+      "total_passed": 56,
+      "overall_pass_rate": 0.13793103448275862
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 479,
+      "total_passed": 42,
+      "overall_pass_rate": 0.08768267223382047
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 517,
+      "total_passed": 56,
+      "overall_pass_rate": 0.10831721470019343
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 436,
+      "total_passed": 57,
+      "overall_pass_rate": 0.13073394495412843
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 409,
+      "total_passed": 50,
+      "overall_pass_rate": 0.12224938875305623
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 430,
+      "total_passed": 70,
+      "overall_pass_rate": 0.16279069767441862
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 390,
+      "total_passed": 61,
+      "overall_pass_rate": 0.1564102564102564
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 425,
+      "total_passed": 46,
+      "overall_pass_rate": 0.10823529411764705
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 458,
+      "total_passed": 59,
+      "overall_pass_rate": 0.12882096069868995
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 465,
+      "total_passed": 54,
+      "overall_pass_rate": 0.11612903225806452
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 546,
+      "total_passed": 126,
+      "overall_pass_rate": 0.23076923076923078
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 492,
+      "total_passed": 58,
+      "overall_pass_rate": 0.11788617886178862
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 414,
+      "total_passed": 45,
+      "overall_pass_rate": 0.10869565217391304
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 460,
+      "total_passed": 68,
+      "overall_pass_rate": 0.14782608695652175
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 433,
+      "total_passed": 69,
+      "overall_pass_rate": 0.15935334872979215
+    },
+    {
+      "code_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 482,
+      "total_passed": 47,
+      "overall_pass_rate": 0.0975103734439834
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 497,
+      "total_passed": 48,
+      "overall_pass_rate": 0.096579476861167
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 435,
+      "total_passed": 55,
+      "overall_pass_rate": 0.12643678160919541
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 525,
+      "total_passed": 41,
+      "overall_pass_rate": 0.07809523809523809
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 538,
+      "total_passed": 49,
+      "overall_pass_rate": 0.09107806691449814
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 448,
+      "total_passed": 54,
+      "overall_pass_rate": 0.12053571428571429
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 457,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10722100656455143
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 55,
+      "overall_pass_rate": 0.125
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 436,
+      "total_passed": 62,
+      "overall_pass_rate": 0.14220183486238533
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 465,
+      "total_passed": 45,
+      "overall_pass_rate": 0.0967741935483871
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 497,
+      "total_passed": 46,
+      "overall_pass_rate": 0.0925553319919517
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 506,
+      "total_passed": 49,
+      "overall_pass_rate": 0.09683794466403162
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 545,
+      "total_passed": 132,
+      "overall_pass_rate": 0.24220183486238533
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 507,
+      "total_passed": 61,
+      "overall_pass_rate": 0.1203155818540434
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 477,
+      "total_passed": 30,
+      "overall_pass_rate": 0.06289308176100629
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 512,
+      "total_passed": 67,
+      "overall_pass_rate": 0.130859375
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 543,
+      "total_passed": 52,
+      "overall_pass_rate": 0.09576427255985268
+    },
+    {
+      "code_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 453,
+      "total_passed": 63,
+      "overall_pass_rate": 0.1390728476821192
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 457,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10940919037199125
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 438,
+      "total_passed": 64,
+      "overall_pass_rate": 0.1461187214611872
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 477,
+      "total_passed": 43,
+      "overall_pass_rate": 0.09014675052410902
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 517,
+      "total_passed": 56,
+      "overall_pass_rate": 0.10831721470019343
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 453,
+      "total_passed": 68,
+      "overall_pass_rate": 0.15011037527593818
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 441,
+      "total_passed": 47,
+      "overall_pass_rate": 0.10657596371882086
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 416,
+      "total_passed": 80,
+      "overall_pass_rate": 0.19230769230769232
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 429,
+      "total_passed": 69,
+      "overall_pass_rate": 0.16083916083916083
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 439,
+      "total_passed": 46,
+      "overall_pass_rate": 0.10478359908883828
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 475,
+      "total_passed": 60,
+      "overall_pass_rate": 0.12631578947368421
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 552,
+      "total_passed": 126,
+      "overall_pass_rate": 0.22826086956521738
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 467,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10492505353319058
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 512,
+      "total_passed": 90,
+      "overall_pass_rate": 0.17578125
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 424,
+      "total_passed": 51,
+      "overall_pass_rate": 0.12028301886792453
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 477,
+      "total_passed": 62,
+      "overall_pass_rate": 0.129979035639413
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 501,
+      "total_passed": 56,
+      "overall_pass_rate": 0.11177644710578842
+    },
+    {
+      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 434,
+      "total_passed": 71,
+      "overall_pass_rate": 0.16359447004608296
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10187110187110188
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 436,
+      "total_passed": 60,
+      "overall_pass_rate": 0.13761467889908258
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 485,
+      "total_passed": 43,
+      "overall_pass_rate": 0.088659793814433
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 528,
+      "total_passed": 51,
+      "overall_pass_rate": 0.09659090909090909
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 452,
+      "total_passed": 69,
+      "overall_pass_rate": 0.15265486725663716
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 434,
+      "total_passed": 52,
+      "overall_pass_rate": 0.11981566820276497
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 423,
+      "total_passed": 74,
+      "overall_pass_rate": 0.17494089834515367
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 437,
+      "total_passed": 62,
+      "overall_pass_rate": 0.14187643020594964
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 459,
+      "total_passed": 44,
+      "overall_pass_rate": 0.09586056644880174
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 464,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10775862068965517
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 489,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10429447852760736
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 580,
+      "total_passed": 126,
+      "overall_pass_rate": 0.21724137931034482
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 523,
+      "total_passed": 101,
+      "overall_pass_rate": 0.1931166347992352
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 438,
+      "total_passed": 52,
+      "overall_pass_rate": 0.1187214611872146
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 505,
+      "total_passed": 57,
+      "overall_pass_rate": 0.11287128712871287
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 487,
+      "total_passed": 65,
+      "overall_pass_rate": 0.13347022587268995
+    },
+    {
+      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 443,
+      "total_passed": 72,
+      "overall_pass_rate": 0.16252821670428894
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 476,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10504201680672269
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 444,
+      "total_passed": 55,
+      "overall_pass_rate": 0.12387387387387387
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 499,
+      "total_passed": 47,
+      "overall_pass_rate": 0.09418837675350701
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 533,
+      "total_passed": 58,
+      "overall_pass_rate": 0.10881801125703565
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 445,
+      "total_passed": 55,
+      "overall_pass_rate": 0.12359550561797752
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 435,
+      "total_passed": 52,
+      "overall_pass_rate": 0.11954022988505747
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 450,
+      "total_passed": 64,
+      "overall_pass_rate": 0.14222222222222222
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 415,
+      "total_passed": 60,
+      "overall_pass_rate": 0.14457831325301204
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 435,
+      "total_passed": 49,
+      "overall_pass_rate": 0.11264367816091954
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 478,
+      "total_passed": 49,
+      "overall_pass_rate": 0.10251046025104603
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 479,
+      "total_passed": 50,
+      "overall_pass_rate": 0.10438413361169102
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 583,
+      "total_passed": 126,
+      "overall_pass_rate": 0.21612349914236706
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 474,
+      "total_passed": 55,
+      "overall_pass_rate": 0.1160337552742616
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 428,
+      "total_passed": 42,
+      "overall_pass_rate": 0.09813084112149532
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 501,
+      "total_passed": 67,
+      "overall_pass_rate": 0.13373253493013973
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 476,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10714285714285714
+    },
+    {
+      "code_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 424,
+      "total_passed": 60,
+      "overall_pass_rate": 0.14150943396226415
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 497,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10261569416498995
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 432,
+      "total_passed": 53,
+      "overall_pass_rate": 0.12268518518518519
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 491,
+      "total_passed": 42,
+      "overall_pass_rate": 0.0855397148676171
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 533,
+      "total_passed": 46,
+      "overall_pass_rate": 0.08630393996247655
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 460,
+      "total_passed": 51,
+      "overall_pass_rate": 0.1108695652173913
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 444,
+      "total_passed": 50,
+      "overall_pass_rate": 0.11261261261261261
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 420,
+      "total_passed": 55,
+      "overall_pass_rate": 0.13095238095238096
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 429,
+      "total_passed": 62,
+      "overall_pass_rate": 0.1445221445221445
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 452,
+      "total_passed": 41,
+      "overall_pass_rate": 0.09070796460176991
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 481,
+      "total_passed": 43,
+      "overall_pass_rate": 0.0893970893970894
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 479,
+      "total_passed": 47,
+      "overall_pass_rate": 0.09812108559498957
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 564,
+      "total_passed": 126,
+      "overall_pass_rate": 0.22340425531914893
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 490,
+      "total_passed": 51,
+      "overall_pass_rate": 0.10408163265306122
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 456,
+      "total_passed": 36,
+      "overall_pass_rate": 0.07894736842105263
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 519,
+      "total_passed": 45,
+      "overall_pass_rate": 0.08670520231213873
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 462,
+      "total_passed": 63,
+      "overall_pass_rate": 0.13636363636363635
+    },
+    {
+      "code_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 429,
+      "total_passed": 54,
+      "overall_pass_rate": 0.1258741258741259
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "active_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 487,
+      "total_passed": 48,
+      "overall_pass_rate": 0.09856262833675565
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 438,
+      "total_passed": 54,
+      "overall_pass_rate": 0.1232876712328767
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "future_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 490,
+      "total_passed": 45,
+      "overall_pass_rate": 0.09183673469387756
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_cap_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 523,
+      "total_passed": 54,
+      "overall_pass_rate": 0.10325047801147227
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "highlight_star_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 478,
+      "total_passed": 79,
+      "overall_pass_rate": 0.16527196652719664
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "original_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 428,
+      "total_passed": 53,
+      "overall_pass_rate": 0.12383177570093458
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "passive_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 427,
+      "total_passed": 73,
+      "overall_pass_rate": 0.17096018735362997
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 431,
+      "total_passed": 62,
+      "overall_pass_rate": 0.14385150812064965
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "past_tense_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 460,
+      "total_passed": 48,
+      "overall_pass_rate": 0.10434782608695652
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "random_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 473,
+      "total_passed": 47,
+      "overall_pass_rate": 0.09936575052854123
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "remove_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 487,
+      "total_passed": 50,
+      "overall_pass_rate": 0.1026694045174538
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rename_variables_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 562,
+      "total_passed": 126,
+      "overall_pass_rate": 0.22419928825622776
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 518,
+      "total_passed": 92,
+      "overall_pass_rate": 0.1776061776061776
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 440,
+      "total_passed": 51,
+      "overall_pass_rate": 0.1159090909090909
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "unrelated_function_name_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 519,
+      "total_passed": 48,
+      "overall_pass_rate": 0.09248554913294797
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "uppercase_to_lowercase_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 490,
+      "total_passed": 78,
+      "overall_pass_rate": 0.15918367346938775
+    },
+    {
+      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1_v2",
+      "total_tasks": 148,
+      "total_tests": 443,
+      "total_passed": 74,
+      "overall_pass_rate": 0.1670428893905192
+    }
+  ]
+}

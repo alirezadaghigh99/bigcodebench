@@ -6,6 +6,7 @@ import tempfile
 import re
 import ast
 import sys
+import argparse
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 import subprocess
@@ -27,6 +28,103 @@ def extract_function_name(code: str) -> Optional[str]:
     
     return None
 
+def extract_code_from_response(response: str) -> Optional[str]:
+    """Extract Python code from response, handling various formats."""
+    if not response:
+        return None
+    
+    # Try to extract code from markdown blocks first
+    code_block_pattern = r'```python\n(.*?)```'
+    matches = re.findall(code_block_pattern, response, re.DOTALL)
+    if matches:
+        return matches[-1].strip()  # Take the last match
+    
+    # If no markdown blocks, try to extract from plain text
+    # Look for import statements as start indicators
+    lines = response.split('\n')
+    code_lines = []
+    in_code = False
+    
+    for line in lines:
+        # Start collecting when we see import or def
+        if re.match(r'^\s*(import|from|def)', line):
+            in_code = True
+        
+        if in_code:
+            code_lines.append(line)
+    
+    return '\n'.join(code_lines).strip() if code_lines else None
+
+def fix_truncated_code(code: str) -> str:
+    """Try to fix common truncation issues."""
+    if not code:
+        return code
+    
+    # Fix unterminated triple quotes
+    triple_quote_count = code.count("'''")
+    if triple_quote_count % 2 == 1:  # Odd number means unterminated
+        code += "\n    '''"
+    
+    double_triple_quote_count = code.count('"""')
+    if double_triple_quote_count % 2 == 1:
+        code += '\n    """'
+    
+    # Check if we have incomplete function body
+    lines = code.split('\n')
+    for i, line in enumerate(lines):
+        if line.strip().startswith('def ') and line.endswith(':'):
+            # Check if there's any actual function body after this
+            has_body = False
+            for j in range(i+1, len(lines)):
+                if lines[j].strip() and not lines[j].startswith('    '):
+                    break
+                if lines[j].strip() and lines[j].startswith('    '):
+                    has_body = True
+                    break
+            
+            if not has_body:
+                # Add a minimal body
+                code += "\n    pass"
+                break
+    
+    return code
+
+def validate_and_fix_code(response_code: str, response: str) -> str:
+    """Validate and fix code, falling back to response if needed."""
+    
+    # First try the response_code as is
+    try:
+        compile(response_code, '<string>', 'exec')
+        return response_code
+    except SyntaxError:
+        pass
+    
+    # Try to fix truncation issues
+    fixed_code = fix_truncated_code(response_code)
+    try:
+        compile(fixed_code, '<string>', 'exec')
+        return fixed_code
+    except SyntaxError:
+        pass
+    
+    # Try to extract from the full response
+    extracted_code = extract_code_from_response(response)
+    if extracted_code:
+        try:
+            compile(extracted_code, '<string>', 'exec')
+            return extracted_code
+        except SyntaxError:
+            # Try fixing the extracted code too
+            fixed_extracted = fix_truncated_code(extracted_code)
+            try:
+                compile(fixed_extracted, '<string>', 'exec')
+                return fixed_extracted
+            except SyntaxError:
+                pass
+    
+    # If all else fails, return the original (will likely fail tests but at least we track it)
+    return response_code
+
 def convert_function_to_task_func(code: str) -> str:
     """Convert the main function name to task_func to match test expectations."""
     original_name = extract_function_name(code)
@@ -35,9 +133,14 @@ def convert_function_to_task_func(code: str) -> str:
     
     # Replace function definition
     pattern = rf'\bdef\s+{re.escape(original_name)}\s*\('
-    replacement = 'def func('
+    replacement = 'def task_func('
     converted_code = re.sub(pattern, replacement, code)
-    converted_code = converted_code.replace("func", "task_func")
+    
+    # Replace function calls
+    call_pattern = rf'\b{re.escape(original_name)}\s*\('
+    call_replacement = 'task_func('
+    converted_code = re.sub(call_pattern, call_replacement, converted_code)
+    
     return converted_code
 
 def safe_execute_code(code: str, test_code: str, task_id: str) -> Dict[str, Any]:
@@ -143,24 +246,47 @@ def process_generation_file(file_path: str, problems: Dict[str, Any]) -> List[Di
                     task_id = sample['task_id']
                     
                     if task_id not in problems:
-                        pbar.set_postfix_str(f"Warning: Task {task_id} not found")
+                        result = {
+                            'task_id': task_id,
+                            'test_result': 0,
+                            'failure_reason': f'Task {task_id} not found in dataset'
+                        }
+                        results.append(result)
+                        pbar.set_postfix_str(f"{task_id}: NOT_FOUND")
                         pbar.update(1)
                         continue
                     
                     # Get the generated code
                     response_code = sample.get('response_code', '')
+                    response = sample.get('response', '')
+                    
                     if not response_code:
-                        results.append({
+                        result = {
                             'task_id': task_id,
                             'test_result': 0,
                             'failure_reason': 'No response_code found'
-                        })
-                        pbar.set_postfix_str(f"{task_id}: No code")
+                        }
+                        results.append(result)
+                        pbar.set_postfix_str(f"{task_id}: NO_CODE")
+                        pbar.update(1)
+                        continue
+                    
+                    # Validate and fix the code if needed (handles truncation issues)
+                    try:
+                        validated_code = validate_and_fix_code(response_code, response)
+                    except Exception as e:
+                        result = {
+                            'task_id': task_id,
+                            'test_result': 0,
+                            'failure_reason': f'Code validation error: {str(e)}'
+                        }
+                        results.append(result)
+                        pbar.set_postfix_str(f"{task_id}: VALIDATION_ERROR")
                         pbar.update(1)
                         continue
                     
                     # Convert function name to task_func (to match test expectations)
-                    converted_code = convert_function_to_task_func(response_code)
+                    converted_code = convert_function_to_task_func(validated_code)
                     
                     # Get test code from dataset
                     problem = problems[task_id]
@@ -175,44 +301,95 @@ def process_generation_file(file_path: str, problems: Dict[str, Any]) -> List[Di
                     pbar.update(1)
                     
                 except Exception as e:
-                    pbar.set_postfix_str(f"Error: {str(e)[:30]}")
+                    result = {
+                        'task_id': f'unknown_line_{len(results)}',
+                        'test_result': 0,
+                        'failure_reason': f'Processing error: {str(e)}'
+                    }
+                    results.append(result)
+                    pbar.set_postfix_str(f"ERROR: {str(e)[:30]}")
                     pbar.update(1)
                     continue
     
     return results
 
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Test generated code against BigCodeBench with improved structure handling')
+    parser.add_argument('--model', type=str, 
+                       help='Model name to process (e.g., o4, deepseek, gemini). If not specified, processes all models.')
+    parser.add_argument('--pattern', type=str, default='code_*.jsonl',
+                       help='File pattern to process (default: code_*.jsonl)')
+    
+    args = parser.parse_args()
+    
     # Load dataset
     print("Loading BigCodeBench dataset...")
     problems = load_bigcodebench_dataset()
     print(f"Loaded {len(problems)} problems")
     
-    # Process only o4 model's original code files for testing
+    # Process model(s)
     generation_root = Path("/Users/aliredaq/Downloads/bigcodebench/generation_output")
     
-    target_folders = ["o4"]  # Focus on o4 for testing
-    
-    for folder_name in target_folders:
-        model_folder = generation_root / folder_name
+    if args.model:
+        # Process specific model
+        model_folder = generation_root / args.model
         if not model_folder.is_dir():
-            print(f"Folder {folder_name} not found, skipping...")
-            continue
-            
+            print(f"Error: Model folder '{args.model}' not found in {generation_root}")
+            print("Available models:")
+            for folder in generation_root.iterdir():
+                if folder.is_dir() and 'standardized' not in folder.name.lower():
+                    print(f"  - {folder.name}")
+            return
+        
+        model_folders = [model_folder]
+    else:
+        # Process all models
+        model_folders = [f for f in generation_root.iterdir() if f.is_dir() and 'standardized' not in f.name.lower()]
+    
+    for model_folder in model_folders:
         print(f"\nProcessing model: {model_folder.name}")
         
-        # Create test_generation folder
-        test_gen_folder = model_folder / "test_generation"
-        test_gen_folder.mkdir(exist_ok=True)
+        # Check for new folder structure (code subfolder)
+        code_folder = model_folder / "code"
+        if code_folder.exists():
+            print(f"  Found code subfolder structure")
+            source_folder = code_folder
+            # Create test folder next to code folder
+            test_folder = model_folder / "test"
+            test_folder.mkdir(exist_ok=True)
+            print(f"  Will save results to: {test_folder}")
+        else:
+            # Fallback to old structure (code files directly in model folder)
+            print(f"  Using direct model folder structure")
+            source_folder = model_folder
+            # Create test_generation folder (old structure)
+            test_folder = model_folder / "test_generation"
+            test_folder.mkdir(exist_ok=True)
+            print(f"  Will save results to: {test_folder}")
         
-        # Process only original code generation files
-        for gen_file in model_folder.glob("code_original_*.jsonl"):
-            print(f"  Processing {gen_file.name}")
+        # Process code generation files matching the pattern
+        matching_files = list(source_folder.glob(args.pattern))
+        if not matching_files:
+            print(f"No files found matching pattern '{args.pattern}' in {source_folder}")
+            # Try to show what files are available
+            all_files = list(source_folder.glob("*.jsonl"))
+            if all_files:
+                print(f"Available .jsonl files in {source_folder}:")
+                for file in all_files[:10]:  # Show first 10
+                    print(f"  - {file.name}")
+            continue
+        
+        print(f"Found {len(matching_files)} files to process")
+        
+        for gen_file in matching_files:
+            print(f"  Processing {gen_file.name}...")
             
             try:
                 results = process_generation_file(str(gen_file), problems)
                 
-                # Save results
-                output_file = test_gen_folder / f"test_{gen_file.name}"
+                # Save results with consistent naming
+                output_file = test_folder / f"test_{gen_file.name}"
                 with open(output_file, 'w') as f:
                     for result in results:
                         f.write(json.dumps(result) + '\n')
@@ -221,13 +398,14 @@ def main():
                 passed = sum(1 for r in results if r['test_result'] == 1)
                 total = len(results)
                 print(f"    Results: {passed}/{total} passed ({passed/total*100:.1f}%)")
+                print(f"    Saved to: {output_file}")
                 
                 # Print some failure examples for debugging
                 failed_results = [r for r in results if r['test_result'] == 0]
                 if failed_results:
                     print(f"    Sample failures:")
                     for i, fail in enumerate(failed_results[:3]):  # Show first 3 failures
-                        reason = fail['failure_reason'][:100] + "..." if len(fail['failure_reason']) > 100 else fail['failure_reason']
+                        reason = fail['failure_reason'][:100] + "..." if fail['failure_reason'] and len(fail['failure_reason']) > 100 else fail['failure_reason']
                         print(f"      {fail['task_id']}: {reason}")
                 
             except Exception as e:

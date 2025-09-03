@@ -405,6 +405,19 @@ class CrossTechniquePipeline:
         self.model_name = model_name
         self.base_dir = Path(base_dir)
         self.model_dir = self.base_dir / model_name
+        
+        # Check if using code/ and test/ subdirectory structure
+        code_subdir = self.model_dir / "code"
+        test_subdir = self.model_dir / "test"
+        if code_subdir.exists() and test_subdir.exists():
+            self.code_dir = code_subdir
+            self.test_dir = test_subdir
+            self.use_subdirs = True
+        else:
+            self.code_dir = self.model_dir
+            self.test_dir = self.model_dir
+            self.use_subdirs = False
+            
         self.code_standardized_dir = self.base_dir / f"{model_name}_standardized"
         self.test_standardized_dir = self.base_dir / f"{model_name}_test_standardized"
         self.results_dir = self.base_dir / model_name / "cross_result"
@@ -415,30 +428,60 @@ class CrossTechniquePipeline:
             print(f"Error: Model directory {self.model_dir} does not exist!")
             return False
         
+        if not self.code_dir.exists():
+            print(f"Error: Code directory {self.code_dir} does not exist!")
+            return False
+            
+        if not self.test_dir.exists():
+            print(f"Error: Test directory {self.test_dir} does not exist!")
+            return False
+        
         # Check if we have both code and test files
-        code_files = list(self.model_dir.glob("code_*.jsonl"))
-        test_files = list(self.model_dir.glob("test_*.jsonl"))
+        code_files = list(self.code_dir.glob("code_*.jsonl"))
+        test_files = list(self.test_dir.glob("test_*.jsonl"))
         
         if not code_files:
-            print(f"Error: No code_*.jsonl files found in {self.model_dir}")
+            print(f"Error: No code_*.jsonl files found in {self.code_dir}")
             return False
             
         if not test_files:
-            print(f"Error: No test_*.jsonl files found in {self.model_dir}")
+            print(f"Error: No test_*.jsonl files found in {self.test_dir}")
             return False
+        
+        if self.use_subdirs:
+            print(f"Using subdirectory structure: Found {len(code_files)} code files in {self.code_dir}")
+            print(f"                            Found {len(test_files)} test files in {self.test_dir}")
+        else:
+            print(f"Using flat directory structure: Found {len(code_files)} code files and {len(test_files)} test files in {self.model_dir}")
             
-        print(f"Found {len(code_files)} code files and {len(test_files)} test files in {self.model_dir}")
         return True
     
     def run_code_standardization(self) -> bool:
         """Run the code standardization process."""
         print("Step 1: Standardizing code function names...")
         
+        # Find the standardize_function_names.py script
+        script_path = Path(__file__).parent / "standardize_function_names.py"
+        if not script_path.exists():
+            # Try different locations
+            possible_paths = [
+                Path("/Users/aliredaq/Downloads/bigcodebench/standardize_function_names.py"),
+                Path("../standardize_function_names.py"),
+                Path("../../standardize_function_names.py")
+            ]
+            for path in possible_paths:
+                if path.exists():
+                    script_path = path
+                    break
+            else:
+                print("Error: standardize_function_names.py not found!")
+                return False
+        
         try:
             result = subprocess.run([
                 sys.executable, 
-                "standardize_function_names.py",
-                "--input-dir", str(self.model_dir),
+                str(script_path),
+                "--input-dir", str(self.code_dir),
                 "--output-dir", str(self.code_standardized_dir)
             ], capture_output=True, text=True, check=True)
             
@@ -454,11 +497,28 @@ class CrossTechniquePipeline:
         """Run the test standardization process."""
         print("Step 2: Standardizing test function names...")
         
+        # Find the standardize_test_function_names.py script
+        script_path = Path(__file__).parent / "standardize_test_function_names.py"
+        if not script_path.exists():
+            # Try different locations
+            possible_paths = [
+                Path("/Users/aliredaq/Downloads/bigcodebench/standardize_test_function_names.py"),
+                Path("../standardize_test_function_names.py"),
+                Path("../../standardize_test_function_names.py")
+            ]
+            for path in possible_paths:
+                if path.exists():
+                    script_path = path
+                    break
+            else:
+                print("Error: standardize_test_function_names.py not found!")
+                return False
+        
         try:
             result = subprocess.run([
                 sys.executable, 
-                "standardize_test_function_names.py",
-                "--directory", str(self.model_dir),
+                str(script_path),
+                "--directory", str(self.test_dir),
                 "--output-dir", str(self.test_standardized_dir)
             ], capture_output=True, text=True, check=True)
             
@@ -469,6 +529,106 @@ class CrossTechniquePipeline:
             print(f"Error in test function name standardization: {e}")
             print(f"stderr: {e.stderr}")
             return False
+    
+    def validate_standardization(self) -> bool:
+        """Validate that standardization worked correctly by checking if standardized files exist and are properly formatted."""
+        print("Step 3: Validating standardization results...")
+        
+        # Check if standardized directories exist
+        if not self.code_standardized_dir.exists():
+            print(f"Warning: Code standardized directory {self.code_standardized_dir} does not exist")
+            return False
+            
+        if not self.test_standardized_dir.exists():
+            print(f"Warning: Test standardized directory {self.test_standardized_dir} does not exist")
+            return False
+        
+        # Check if we have standardized files
+        code_files = list(self.code_standardized_dir.glob("code_*.jsonl"))
+        test_files = list(self.test_standardized_dir.glob("test_*.jsonl"))
+        
+        original_code_files = list(self.code_dir.glob("code_*.jsonl"))
+        original_test_files = list(self.test_dir.glob("test_*.jsonl"))
+        
+        print(f"  Original files: {len(original_code_files)} code, {len(original_test_files)} test")
+        print(f"  Standardized files: {len(code_files)} code, {len(test_files)} test")
+        
+        if len(code_files) == 0:
+            print("Error: No standardized code files found!")
+            return False
+            
+        if len(test_files) == 0:
+            print("Error: No standardized test files found!")
+            return False
+        
+        # Validate a few files to ensure they have proper content
+        validation_errors = []
+        
+        # Check a sample of code files
+        for code_file in code_files[:3]:  # Check first 3 files
+            try:
+                with open(code_file, 'r', encoding='utf-8') as f:
+                    line_count = 0
+                    valid_entries = 0
+                    for line in f:
+                        line_count += 1
+                        if line.strip():
+                            try:
+                                entry = json.loads(line)
+                                if 'task_id' in entry and 'response_code' in entry:
+                                    # Check if the code contains task_func (standardized function name)
+                                    code = entry.get('response_code', '')
+                                    if 'def task_func(' in code:
+                                        valid_entries += 1
+                                    elif 'def ' in code:
+                                        # Has function definition but not standardized
+                                        print(f"Warning: {code_file.name} may not be properly standardized")
+                            except json.JSONDecodeError:
+                                pass
+                    
+                    if valid_entries == 0 and line_count > 0:
+                        validation_errors.append(f"No properly standardized entries found in {code_file.name}")
+                        
+            except Exception as e:
+                validation_errors.append(f"Error reading {code_file.name}: {e}")
+        
+        # Check a sample of test files
+        for test_file in test_files[:3]:  # Check first 3 files
+            try:
+                with open(test_file, 'r', encoding='utf-8') as f:
+                    line_count = 0
+                    valid_entries = 0
+                    for line in f:
+                        line_count += 1
+                        if line.strip():
+                            try:
+                                entry = json.loads(line)
+                                if 'task_id' in entry and 'response_code' in entry:
+                                    # Check if the test contains task_func calls (standardized)
+                                    test_code = entry.get('response_code', '')
+                                    if 'task_func(' in test_code:
+                                        valid_entries += 1
+                                    elif any(call in test_code for call in ['test_func(', 'func(', 'solution(']):
+                                        # Has function calls but not standardized
+                                        print(f"Warning: {test_file.name} may not be properly standardized")
+                            except json.JSONDecodeError:
+                                pass
+                    
+                    if valid_entries == 0 and line_count > 0:
+                        validation_errors.append(f"No properly standardized entries found in {test_file.name}")
+                        
+            except Exception as e:
+                validation_errors.append(f"Error reading {test_file.name}: {e}")
+        
+        if validation_errors:
+            print("Standardization validation warnings:")
+            for error in validation_errors:
+                print(f"  - {error}")
+            print("Continuing with cross-technique testing, but results may be affected...")
+        else:
+            print("Standardization validation passed!")
+        
+        return True  # Continue even with warnings
     
     def load_jsonl_file(self, file_path: Path) -> Dict[str, Dict]:
         """Load JSONL file and return as dictionary keyed by task_id."""
@@ -572,15 +732,17 @@ class CrossTechniquePipeline:
     
     def run_cross_technique_testing(self) -> bool:
         """Run the cross-technique testing process with proper sandboxing and progress bars."""
-        print("Step 3: Running cross-technique testing with temp folder sandboxing...")
+        print("Step 4: Running cross-technique testing with temp folder sandboxing...")
         
         try:
-            # Get all code and test files
-            code_files = list(self.model_dir.glob("code_*.jsonl"))
-            test_files = list(self.model_dir.glob("test_*.jsonl"))
+            # Get all code and test files from standardized directories
+            code_files = list(self.code_standardized_dir.glob("code_*.jsonl"))
+            test_files = list(self.test_standardized_dir.glob("test_*.jsonl"))
             
             if not code_files or not test_files:
-                print("No code or test files found")
+                print("No standardized code or test files found")
+                print(f"  Code files in {self.code_standardized_dir}: {len(code_files)}")
+                print(f"  Test files in {self.test_standardized_dir}: {len(test_files)}")
                 return False
             
             print(f"Found {len(code_files)} code files and {len(test_files)} test files")
@@ -655,13 +817,14 @@ class CrossTechniquePipeline:
     
     def create_model_specific_results(self) -> bool:
         """Create model-specific results with renamed files."""
-        print("Step 4: Creating model-specific results...")
+        print("Step 5: Creating model-specific results...")
         
         # Ensure results directory exists
         self.results_dir.mkdir(parents=True, exist_ok=True)
         
         # Rename result files to include model name
         if self.results_dir.exists():
+            
             for result_file in self.results_dir.glob("code_*.jsonl"):
                 # Check if model name is already in filename
                 if f"_{self.model_name}_" not in result_file.name:
@@ -695,10 +858,10 @@ class CrossTechniquePipeline:
             return False
         
         # Overall pipeline progress
-        total_steps = 4
+        total_steps = 5
         with tqdm(total=total_steps, desc="Pipeline Progress", unit="step") as pipeline_pbar:
             # Step 1: Standardize code function names
-            pipeline_pbar.set_description("Step 1/4: Code Standardization")
+            pipeline_pbar.set_description("Step 1/5: Code Standardization")
             with tqdm(desc="Standardizing code function names", leave=False) as step_pbar:
                 if not self.run_code_standardization():
                     return False
@@ -706,21 +869,29 @@ class CrossTechniquePipeline:
             pipeline_pbar.update(1)
             
             # Step 2: Standardize test function names
-            pipeline_pbar.set_description("Step 2/4: Test Standardization")
+            pipeline_pbar.set_description("Step 2/5: Test Standardization")
             with tqdm(desc="Standardizing test function names", leave=False) as step_pbar:
                 if not self.run_test_standardization():
                     return False
                 step_pbar.update(1)
             pipeline_pbar.update(1)
             
-            # Step 3: Run cross-technique testing
-            pipeline_pbar.set_description("Step 3/4: Cross-Technique Testing")
+            # Step 3: Validate standardization
+            pipeline_pbar.set_description("Step 3/5: Validation")
+            with tqdm(desc="Validating standardization", leave=False) as step_pbar:
+                if not self.validate_standardization():
+                    print("Warning: Standardization validation failed, but continuing...")
+                step_pbar.update(1)
+            pipeline_pbar.update(1)
+            
+            # Step 4: Run cross-technique testing
+            pipeline_pbar.set_description("Step 4/5: Cross-Technique Testing")
             if not self.run_cross_technique_testing():
                 return False
             pipeline_pbar.update(1)
             
-            # Step 4: Create model-specific results
-            pipeline_pbar.set_description("Step 4/4: Organizing Results")
+            # Step 5: Create model-specific results
+            pipeline_pbar.set_description("Step 5/5: Organizing Results")
             with tqdm(desc="Creating model-specific results", leave=False) as step_pbar:
                 if not self.create_model_specific_results():
                     return False

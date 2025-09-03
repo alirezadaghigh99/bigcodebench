@@ -259,8 +259,21 @@ def process_single_sample(sample_data: tuple, problems: Dict[str, Any], progress
                 progress_callback(task_id, "VALIDATION_ERROR")
             return result
         
+        # Validate and fix the code if needed (handles truncation issues)
+        try:
+            validated_code = validate_and_fix_code(response_code, response)
+        except Exception as e:
+            result = {
+                'task_id': task_id,
+                'test_result': 0,
+                'failure_reason': f'Code validation error: {str(e)}'
+            }
+            if progress_callback:
+                progress_callback(task_id, "VALIDATION_ERROR")
+            return result
+        
         # Convert function name to task_func (to match test expectations)
-        converted_code = convert_function_to_task_func(response_code)
+        converted_code = convert_function_to_task_func(validated_code)
         
         # Get test code from dataset
         problem = problems[task_id]
@@ -373,7 +386,7 @@ def main():
         print(f"Error: Model folder '{args.model}' not found in {generation_root}")
         print("Available models:")
         for folder in generation_root.iterdir():
-            if folder.is_dir():
+            if folder.is_dir() and 'standardized' not in folder.name.lower():
                 print(f"  - {folder.name}")
         return
     
@@ -381,15 +394,37 @@ def main():
     print(f"Using {args.workers} concurrent workers")
     print(f"Processing files matching: {args.pattern}")
     
-    # Create test_generation folder
-    test_gen_folder = model_folder / "test_generation"
-    test_gen_folder.mkdir(exist_ok=True)
+    # Check for new folder structure (code subfolder)
+    code_folder = model_folder / "code"
+    if code_folder.exists():
+        print(f"  Found code subfolder structure")
+        source_folder = code_folder
+        # Create test folder next to code folder
+        test_folder = model_folder / "test_generations"
+        test_folder.mkdir(exist_ok=True)
+        print(f"  Will save results to: {test_folder}")
+    else:
+        # Fallback to old structure (code files directly in model folder)
+        print(f"  Using direct model folder structure")
+        source_folder = model_folder
+        # Create test_generation folder (old structure)
+        test_folder = model_folder / "test_generation"
+        test_folder.mkdir(exist_ok=True)
+        print(f"  Will save results to: {test_folder}")
     
     # Process code generation files matching the pattern
-    matching_files = list(model_folder.glob(args.pattern))
+    matching_files = list(source_folder.glob(args.pattern))
     if not matching_files:
-        print(f"No files found matching pattern '{args.pattern}' in {model_folder}")
+        print(f"No files found matching pattern '{args.pattern}' in {source_folder}")
+        # Try to show what files are available
+        all_files = list(source_folder.glob("*.jsonl"))
+        if all_files:
+            print(f"Available .jsonl files in {source_folder}:")
+            for file in all_files[:10]:  # Show first 10
+                print(f"  - {file.name}")
         return
+    
+    print(f"Found {len(matching_files)} files to process")
     
     for gen_file in matching_files:
         print(f"  Processing {gen_file.name} with concurrent execution...")
@@ -398,8 +433,8 @@ def main():
             # Use concurrent processing
             results = process_generation_file_concurrent(str(gen_file), problems, max_workers=args.workers)
             
-            # Save results
-            output_file = test_gen_folder / f"test_{gen_file.name}"
+            # Save results with consistent naming
+            output_file = test_folder / f"test_{gen_file.name}"
             with open(output_file, 'w') as f:
                 for result in results:
                     f.write(json.dumps(result) + '\n')
@@ -408,6 +443,7 @@ def main():
             passed = sum(1 for r in results if r['test_result'] == 1)
             total = len(results)
             print(f"    Results: {passed}/{total} passed ({passed/total*100:.1f}%)")
+            print(f"    Saved to: {output_file}")
             
             # Print some failure examples for debugging
             failed_results = [r for r in results if r['test_result'] == 0]

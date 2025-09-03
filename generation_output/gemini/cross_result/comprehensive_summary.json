@@ -1,518 +1,2598 @@
 {
   "model_name": "gemini",
-  "total_combinations": 64,
+  "total_combinations": 324,
   "results": [
     {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 860,
-      "total_passed": 721,
-      "overall_pass_rate": 0.8383720930232558
-    },
-    {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
+      "code_technique": "lowercase",
+      "test_technique": "declarative",
       "total_tasks": 148,
       "total_tests": 888,
-      "total_passed": 543,
-      "overall_pass_rate": 0.6114864864864865
+      "total_passed": 768,
+      "overall_pass_rate": 0.8648648648648649
     },
     {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
+      "code_technique": "lowercase",
+      "test_technique": "rephrase",
       "total_tasks": 148,
-      "total_tests": 846,
-      "total_passed": 658,
-      "overall_pass_rate": 0.7777777777777778
-    },
-    {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 878,
-      "total_passed": 624,
-      "overall_pass_rate": 0.7107061503416856
-    },
-    {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 879,
+      "total_tests": 905,
       "total_passed": 750,
-      "overall_pass_rate": 0.8532423208191127
+      "overall_pass_rate": 0.8287292817679558
     },
     {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
+      "code_technique": "lowercase",
+      "test_technique": "original",
       "total_tasks": 148,
-      "total_tests": 879,
-      "total_passed": 738,
-      "overall_pass_rate": 0.8395904436860068
+      "total_tests": 916,
+      "total_passed": 811,
+      "overall_pass_rate": 0.8853711790393013
     },
     {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
+      "code_technique": "lowercase",
+      "test_technique": "passive",
       "total_tasks": 148,
-      "total_tests": 886,
-      "total_passed": 769,
-      "overall_pass_rate": 0.8679458239277652
-    },
-    {
-      "code_technique": "original_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 874,
-      "total_passed": 733,
-      "overall_pass_rate": 0.8386727688787186
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 863,
-      "total_passed": 725,
-      "overall_pass_rate": 0.8400926998841252
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 523,
-      "overall_pass_rate": 0.5929705215419501
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 854,
-      "total_passed": 660,
-      "overall_pass_rate": 0.7728337236533958
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 881,
-      "total_passed": 620,
-      "overall_pass_rate": 0.7037457434733257
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 879,
-      "total_passed": 732,
-      "overall_pass_rate": 0.8327645051194539
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 879,
-      "total_passed": 729,
-      "overall_pass_rate": 0.8293515358361775
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 770,
-      "overall_pass_rate": 0.873015873015873
-    },
-    {
-      "code_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 871,
-      "total_passed": 733,
-      "overall_pass_rate": 0.8415614236509759
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 863,
-      "total_passed": 728,
-      "overall_pass_rate": 0.8435689455388181
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 539,
-      "overall_pass_rate": 0.6111111111111112
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 858,
-      "total_passed": 671,
-      "overall_pass_rate": 0.782051282051282
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 623,
-      "overall_pass_rate": 0.7063492063492064
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 881,
-      "total_passed": 750,
-      "overall_pass_rate": 0.8513053348467651
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 879,
-      "total_passed": 749,
-      "overall_pass_rate": 0.8521046643913538
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 886,
-      "total_passed": 775,
-      "overall_pass_rate": 0.8747178329571106
-    },
-    {
-      "code_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 877,
-      "total_passed": 724,
-      "overall_pass_rate": 0.8255416191562144
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 868,
-      "total_passed": 705,
-      "overall_pass_rate": 0.8122119815668203
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 888,
-      "total_passed": 545,
-      "overall_pass_rate": 0.6137387387387387
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 849,
-      "total_passed": 685,
-      "overall_pass_rate": 0.806831566548881
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 878,
-      "total_passed": 612,
-      "overall_pass_rate": 0.6970387243735763
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 877,
-      "total_passed": 728,
-      "overall_pass_rate": 0.830102622576967
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 880,
-      "total_passed": 729,
-      "overall_pass_rate": 0.8284090909090909
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 755,
-      "overall_pass_rate": 0.8560090702947846
-    },
-    {
-      "code_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 875,
-      "total_passed": 706,
-      "overall_pass_rate": 0.8068571428571428
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 863,
-      "total_passed": 714,
-      "overall_pass_rate": 0.8273464658169177
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 540,
-      "overall_pass_rate": 0.6122448979591837
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 852,
-      "total_passed": 654,
-      "overall_pass_rate": 0.7676056338028169
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 618,
-      "overall_pass_rate": 0.7006802721088435
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 875,
-      "total_passed": 734,
-      "overall_pass_rate": 0.8388571428571429
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 878,
-      "total_passed": 735,
-      "overall_pass_rate": 0.837129840546697
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 881,
-      "total_passed": 763,
-      "overall_pass_rate": 0.8660612939841089
-    },
-    {
-      "code_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 877,
-      "total_passed": 712,
-      "overall_pass_rate": 0.8118586088939567
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 863,
-      "total_passed": 732,
-      "overall_pass_rate": 0.8482039397450754
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 883,
-      "total_passed": 543,
-      "overall_pass_rate": 0.6149490373725934
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 853,
-      "total_passed": 658,
-      "overall_pass_rate": 0.7713950762016413
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 878,
-      "total_passed": 627,
-      "overall_pass_rate": 0.714123006833713
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 876,
-      "total_passed": 744,
-      "overall_pass_rate": 0.8493150684931506
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 879,
-      "total_passed": 745,
-      "overall_pass_rate": 0.8475540386803185
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 877,
-      "total_passed": 766,
-      "overall_pass_rate": 0.8734321550741163
-    },
-    {
-      "code_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 871,
-      "total_passed": 724,
-      "overall_pass_rate": 0.8312284730195177
-    },
-    {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 868,
-      "total_passed": 735,
-      "overall_pass_rate": 0.8467741935483871
-    },
-    {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 888,
-      "total_passed": 542,
-      "overall_pass_rate": 0.6103603603603603
-    },
-    {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 854,
-      "total_passed": 657,
-      "overall_pass_rate": 0.7693208430913349
-    },
-    {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
-      "total_passed": 627,
-      "overall_pass_rate": 0.7108843537414966
-    },
-    {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 873,
-      "total_passed": 742,
-      "overall_pass_rate": 0.849942726231386
-    },
-    {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 880,
-      "total_passed": 744,
-      "overall_pass_rate": 0.8454545454545455
-    },
-    {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
-      "total_tasks": 148,
-      "total_tests": 882,
+      "total_tests": 891,
       "total_passed": 776,
-      "overall_pass_rate": 0.8798185941043084
+      "overall_pass_rate": 0.8709315375982043
     },
     {
-      "code_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
+      "code_technique": "lowercase",
+      "test_technique": "future",
       "total_tasks": 148,
-      "total_tests": 877,
-      "total_passed": 727,
-      "overall_pass_rate": 0.8289623717217788
+      "total_tests": 929,
+      "total_passed": 796,
+      "overall_pass_rate": 0.8568353067814855
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "rephrase_prompt_gemini_bigcodebench_output_llm1",
+      "code_technique": "lowercase",
+      "test_technique": "random",
       "total_tasks": 148,
-      "total_tests": 865,
-      "total_passed": 723,
-      "overall_pass_rate": 0.8358381502890173
+      "total_tests": 903,
+      "total_passed": 721,
+      "overall_pass_rate": 0.7984496124031008
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "task_function_name_gemini_bigcodebench_output_llm1",
+      "code_technique": "lowercase",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 733,
+      "overall_pass_rate": 0.8162583518930958
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 769,
+      "overall_pass_rate": 0.845984598459846
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 785,
+      "overall_pass_rate": 0.8635863586358636
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 766,
+      "overall_pass_rate": 0.8539576365663322
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 912,
+      "total_passed": 769,
+      "overall_pass_rate": 0.8432017543859649
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 746,
+      "overall_pass_rate": 0.8215859030837004
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 810,
+      "overall_pass_rate": 0.8862144420131292
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 648,
+      "overall_pass_rate": 0.7232142857142857
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 769,
+      "overall_pass_rate": 0.8487858719646799
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 798,
+      "overall_pass_rate": 0.8778877887788779
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 805,
+      "overall_pass_rate": 0.8974358974358975
+    },
+    {
+      "code_technique": "lowercase",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 814,
+      "overall_pass_rate": 0.9034406215316315
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 780,
+      "overall_pass_rate": 0.8754208754208754
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 742,
+      "overall_pass_rate": 0.8272017837235228
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 916,
+      "total_passed": 805,
+      "overall_pass_rate": 0.87882096069869
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 892,
+      "total_passed": 771,
+      "overall_pass_rate": 0.8643497757847534
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 792,
+      "overall_pass_rate": 0.852529601722282
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 717,
+      "overall_pass_rate": 0.7993311036789298
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 732,
+      "overall_pass_rate": 0.811529933481153
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 769,
+      "overall_pass_rate": 0.8441273326015367
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 795,
+      "overall_pass_rate": 0.87651598676957
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 758,
+      "overall_pass_rate": 0.844097995545657
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 768,
+      "overall_pass_rate": 0.8448844884488449
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 751,
+      "overall_pass_rate": 0.8270925110132159
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 819,
+      "overall_pass_rate": 0.8960612691466083
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 640,
+      "overall_pass_rate": 0.7142857142857143
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 765,
+      "overall_pass_rate": 0.8443708609271523
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 803,
+      "overall_pass_rate": 0.8853362734288864
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 806,
+      "overall_pass_rate": 0.8915929203539823
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 813,
+      "overall_pass_rate": 0.902330743618202
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 889,
+      "total_passed": 759,
+      "overall_pass_rate": 0.8537682789651294
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 738,
+      "overall_pass_rate": 0.8190899001109878
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 916,
+      "total_passed": 802,
+      "overall_pass_rate": 0.8755458515283843
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 770,
+      "overall_pass_rate": 0.8641975308641975
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 783,
+      "overall_pass_rate": 0.8428417653390743
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 720,
+      "overall_pass_rate": 0.7973421926910299
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 757,
+      "overall_pass_rate": 0.8439241917502787
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 757,
+      "overall_pass_rate": 0.8355408388520972
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 760,
+      "overall_pass_rate": 0.8472686733556298
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 912,
+      "total_passed": 749,
+      "overall_pass_rate": 0.8212719298245614
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 918,
+      "total_passed": 760,
+      "overall_pass_rate": 0.8278867102396514
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 745,
+      "overall_pass_rate": 0.8204845814977973
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 812,
+      "overall_pass_rate": 0.888402625820569
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 648,
+      "overall_pass_rate": 0.7232142857142857
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 766,
+      "overall_pass_rate": 0.8454746136865342
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 790,
+      "overall_pass_rate": 0.8748615725359912
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 787,
+      "overall_pass_rate": 0.870575221238938
+    },
+    {
+      "code_technique": "rename",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 807,
+      "overall_pass_rate": 0.8946784922394678
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "declarative",
       "total_tasks": 148,
       "total_tests": 888,
-      "total_passed": 540,
-      "overall_pass_rate": 0.6081081081081081
+      "total_passed": 786,
+      "overall_pass_rate": 0.8851351351351351
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "lowercase_to_uppercase_gemini_bigcodebench_output_llm1",
+      "code_technique": "active",
+      "test_technique": "rephrase",
       "total_tasks": 148,
-      "total_tests": 857,
-      "total_passed": 647,
-      "overall_pass_rate": 0.7549591598599766
+      "total_tests": 896,
+      "total_passed": 751,
+      "overall_pass_rate": 0.8381696428571429
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "adversarial_function_name_gemini_bigcodebench_output_llm1",
+      "code_technique": "active",
+      "test_technique": "original",
       "total_tasks": 148,
-      "total_tests": 878,
-      "total_passed": 620,
-      "overall_pass_rate": 0.7061503416856492
+      "total_tests": 913,
+      "total_passed": 814,
+      "overall_pass_rate": 0.891566265060241
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "verb_to_similar_verb_gemini_bigcodebench_output_llm1",
+      "code_technique": "active",
+      "test_technique": "passive",
       "total_tasks": 148,
-      "total_tests": 876,
-      "total_passed": 738,
-      "overall_pass_rate": 0.8424657534246576
+      "total_tests": 896,
+      "total_passed": 785,
+      "overall_pass_rate": 0.8761160714285714
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
+      "code_technique": "active",
+      "test_technique": "future",
       "total_tasks": 148,
-      "total_tests": 879,
+      "total_tests": 929,
+      "total_passed": 813,
+      "overall_pass_rate": 0.8751345532831001
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 729,
+      "overall_pass_rate": 0.8073089700996677
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 744,
+      "overall_pass_rate": 0.8248337028824834
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 770,
+      "overall_pass_rate": 0.847084708470847
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 779,
+      "overall_pass_rate": 0.8617256637168141
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 777,
+      "overall_pass_rate": 0.8652561247216035
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 778,
+      "overall_pass_rate": 0.8615725359911407
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 752,
+      "overall_pass_rate": 0.8281938325991189
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 833,
+      "overall_pass_rate": 0.9113785557986871
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 646,
+      "overall_pass_rate": 0.7209821428571429
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 784,
+      "overall_pass_rate": 0.8653421633554084
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 805,
+      "overall_pass_rate": 0.8924611973392461
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 806,
+      "overall_pass_rate": 0.8915929203539823
+    },
+    {
+      "code_technique": "active",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 813,
+      "overall_pass_rate": 0.9124579124579124
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 890,
+      "total_passed": 779,
+      "overall_pass_rate": 0.8752808988764045
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 894,
+      "total_passed": 747,
+      "overall_pass_rate": 0.8355704697986577
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 816,
+      "overall_pass_rate": 0.8996692392502756
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 892,
+      "total_passed": 786,
+      "overall_pass_rate": 0.8811659192825112
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 935,
+      "total_passed": 808,
+      "overall_pass_rate": 0.8641711229946524
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 722,
+      "overall_pass_rate": 0.8049052396878483
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 746,
+      "overall_pass_rate": 0.8270509977827051
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 763,
+      "overall_pass_rate": 0.8449612403100775
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 775,
+      "overall_pass_rate": 0.8592017738359202
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 773,
+      "overall_pass_rate": 0.8608017817371938
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 775,
+      "overall_pass_rate": 0.8525852585258525
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 748,
+      "overall_pass_rate": 0.827433628318584
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 825,
+      "overall_pass_rate": 0.9055982436882547
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 649,
+      "overall_pass_rate": 0.7243303571428571
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 773,
+      "overall_pass_rate": 0.8617614269788183
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 805,
+      "overall_pass_rate": 0.8924611973392461
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 809,
+      "overall_pass_rate": 0.899888765294772
+    },
+    {
+      "code_technique": "unrelated",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 802,
+      "overall_pass_rate": 0.8921023359288098
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 884,
+      "total_passed": 776,
+      "overall_pass_rate": 0.8778280542986425
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 887,
+      "total_passed": 743,
+      "overall_pass_rate": 0.8376550169109357
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 815,
+      "overall_pass_rate": 0.898566703417861
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 892,
+      "total_passed": 787,
+      "overall_pass_rate": 0.8822869955156951
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 810,
+      "overall_pass_rate": 0.8719052744886975
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 726,
+      "overall_pass_rate": 0.8039867109634552
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 741,
+      "overall_pass_rate": 0.8215077605321508
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 771,
+      "overall_pass_rate": 0.8509933774834437
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 793,
+      "overall_pass_rate": 0.8772123893805309
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 767,
+      "overall_pass_rate": 0.855072463768116
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 775,
+      "overall_pass_rate": 0.8630289532293987
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 752,
+      "overall_pass_rate": 0.831858407079646
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 833,
+      "overall_pass_rate": 0.9113785557986871
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 648,
+      "overall_pass_rate": 0.7232142857142857
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 892,
+      "total_passed": 767,
+      "overall_pass_rate": 0.8598654708520179
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 801,
+      "overall_pass_rate": 0.8890122086570478
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 807,
+      "overall_pass_rate": 0.8976640711902113
+    },
+    {
+      "code_technique": "random",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 895,
+      "total_passed": 811,
+      "overall_pass_rate": 0.906145251396648
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 888,
+      "total_passed": 785,
+      "overall_pass_rate": 0.884009009009009
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 905,
+      "total_passed": 751,
+      "overall_pass_rate": 0.8298342541436464
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 913,
+      "total_passed": 813,
+      "overall_pass_rate": 0.8904709748083242
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 892,
+      "total_passed": 787,
+      "overall_pass_rate": 0.8822869955156951
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 813,
+      "overall_pass_rate": 0.8751345532831001
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 730,
+      "overall_pass_rate": 0.8057395143487859
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 897,
       "total_passed": 740,
-      "overall_pass_rate": 0.8418657565415245
+      "overall_pass_rate": 0.8249721293199554
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "original_gemini_bigcodebench_output_llm1",
+      "code_technique": "adversarial",
+      "test_technique": "unrelated",
       "total_tasks": 148,
-      "total_tests": 885,
-      "total_passed": 758,
-      "overall_pass_rate": 0.8564971751412429
+      "total_tests": 909,
+      "total_passed": 774,
+      "overall_pass_rate": 0.8514851485148515
     },
     {
-      "code_technique": "active_to_passive_gemini_bigcodebench_output_llm1",
-      "test_technique": "declarative_to_interrogative_gemini_bigcodebench_output_llm1",
+      "code_technique": "adversarial",
+      "test_technique": "highlight",
       "total_tasks": 148,
-      "total_tests": 879,
+      "total_tests": 909,
+      "total_passed": 782,
+      "overall_pass_rate": 0.8602860286028603
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 760,
+      "overall_pass_rate": 0.8425720620842572
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 777,
+      "overall_pass_rate": 0.8595132743362832
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 753,
+      "overall_pass_rate": 0.8329646017699115
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 831,
+      "overall_pass_rate": 0.9091903719912473
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 650,
+      "overall_pass_rate": 0.7254464285714286
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 770,
+      "overall_pass_rate": 0.8546059933407325
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 797,
+      "overall_pass_rate": 0.8845726970033296
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 809,
+      "overall_pass_rate": 0.8949115044247787
+    },
+    {
+      "code_technique": "adversarial",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 812,
+      "overall_pass_rate": 0.9032258064516129
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 888,
+      "total_passed": 789,
+      "overall_pass_rate": 0.8885135135135135
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 754,
+      "overall_pass_rate": 0.835920177383592
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 916,
+      "total_passed": 817,
+      "overall_pass_rate": 0.8919213973799127
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 795,
+      "overall_pass_rate": 0.8922558922558923
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 924,
+      "total_passed": 807,
+      "overall_pass_rate": 0.8733766233766234
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 731,
+      "overall_pass_rate": 0.8095238095238095
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 747,
+      "overall_pass_rate": 0.8337053571428571
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 771,
+      "overall_pass_rate": 0.8481848184818482
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 905,
+      "total_passed": 788,
+      "overall_pass_rate": 0.8707182320441988
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 768,
+      "overall_pass_rate": 0.8552338530066815
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 780,
+      "overall_pass_rate": 0.8685968819599109
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 749,
+      "overall_pass_rate": 0.8285398230088495
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 824,
+      "overall_pass_rate": 0.9015317286652079
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 650,
+      "overall_pass_rate": 0.7254464285714286
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 782,
+      "overall_pass_rate": 0.8669623059866962
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 799,
+      "overall_pass_rate": 0.885809312638581
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 809,
+      "overall_pass_rate": 0.8949115044247787
+    },
+    {
+      "code_technique": "task",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 809,
+      "overall_pass_rate": 0.9008908685968819
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 892,
+      "total_passed": 788,
+      "overall_pass_rate": 0.8834080717488789
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 895,
+      "total_passed": 736,
+      "overall_pass_rate": 0.8223463687150838
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 917,
+      "total_passed": 807,
+      "overall_pass_rate": 0.8800436205016358
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 887,
+      "total_passed": 775,
+      "overall_pass_rate": 0.8737316798196166
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 796,
+      "overall_pass_rate": 0.8568353067814855
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 723,
+      "overall_pass_rate": 0.8015521064301552
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 736,
+      "overall_pass_rate": 0.8195991091314031
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 770,
+      "overall_pass_rate": 0.847084708470847
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 767,
+      "overall_pass_rate": 0.8456449834619625
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 893,
+      "total_passed": 776,
+      "overall_pass_rate": 0.8689809630459127
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 894,
+      "total_passed": 750,
+      "overall_pass_rate": 0.8389261744966443
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 749,
+      "overall_pass_rate": 0.8285398230088495
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 809,
+      "overall_pass_rate": 0.8851203501094091
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 648,
+      "overall_pass_rate": 0.7232142857142857
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 755,
+      "overall_pass_rate": 0.8416945373467113
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 795,
+      "overall_pass_rate": 0.8774834437086093
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 796,
+      "overall_pass_rate": 0.8805309734513275
+    },
+    {
+      "code_technique": "uppercase",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 895,
+      "total_passed": 807,
+      "overall_pass_rate": 0.9016759776536313
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 888,
+      "total_passed": 783,
+      "overall_pass_rate": 0.8817567567567568
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 736,
+      "overall_pass_rate": 0.8214285714285714
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 917,
+      "total_passed": 800,
+      "overall_pass_rate": 0.8724100327153762
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 783,
+      "overall_pass_rate": 0.8787878787878788
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 933,
+      "total_passed": 802,
+      "overall_pass_rate": 0.8595927116827439
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 721,
+      "overall_pass_rate": 0.7984496124031008
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 736,
+      "overall_pass_rate": 0.8159645232815964
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 761,
+      "overall_pass_rate": 0.8353457738748628
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 790,
+      "overall_pass_rate": 0.8710033076074972
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 759,
+      "overall_pass_rate": 0.8414634146341463
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 764,
+      "overall_pass_rate": 0.8507795100222717
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 741,
+      "overall_pass_rate": 0.8196902654867256
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 816,
+      "overall_pass_rate": 0.8927789934354485
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 642,
+      "overall_pass_rate": 0.7165178571428571
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 772,
+      "overall_pass_rate": 0.8558758314855875
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 795,
+      "overall_pass_rate": 0.87651598676957
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 797,
+      "overall_pass_rate": 0.8865406006674083
+    },
+    {
+      "code_technique": "rephrase",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 807,
+      "overall_pass_rate": 0.8986636971046771
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 888,
+      "total_passed": 791,
+      "overall_pass_rate": 0.8907657657657657
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 754,
+      "overall_pass_rate": 0.8387096774193549
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 915,
+      "total_passed": 813,
+      "overall_pass_rate": 0.8885245901639345
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 890,
+      "total_passed": 787,
+      "overall_pass_rate": 0.8842696629213483
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 933,
+      "total_passed": 811,
+      "overall_pass_rate": 0.8692390139335477
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 726,
+      "overall_pass_rate": 0.8039867109634552
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 740,
+      "overall_pass_rate": 0.8240534521158129
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 774,
+      "overall_pass_rate": 0.849615806805708
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 790,
+      "overall_pass_rate": 0.8738938053097345
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 765,
+      "overall_pass_rate": 0.8528428093645485
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 783,
+      "overall_pass_rate": 0.8613861386138614
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 747,
+      "overall_pass_rate": 0.8281596452328159
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 828,
+      "overall_pass_rate": 0.9059080962800875
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 650,
+      "overall_pass_rate": 0.7254464285714286
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 890,
+      "total_passed": 778,
+      "overall_pass_rate": 0.8741573033707866
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 805,
+      "overall_pass_rate": 0.8964365256124721
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 802,
+      "overall_pass_rate": 0.8871681415929203
+    },
+    {
+      "code_technique": "past",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 819,
+      "overall_pass_rate": 0.9110122358175751
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 793,
+      "overall_pass_rate": 0.8900112233445566
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 900,
+      "total_passed": 745,
+      "overall_pass_rate": 0.8277777777777777
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 915,
+      "total_passed": 816,
+      "overall_pass_rate": 0.8918032786885246
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 799,
+      "overall_pass_rate": 0.8917410714285714
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 812,
+      "overall_pass_rate": 0.8740581270182992
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
       "total_passed": 727,
-      "overall_pass_rate": 0.8270762229806599
+      "overall_pass_rate": 0.805094130675526
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 750,
+      "overall_pass_rate": 0.8278145695364238
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 912,
+      "total_passed": 764,
+      "overall_pass_rate": 0.8377192982456141
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 789,
+      "overall_pass_rate": 0.8737541528239202
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 758,
+      "overall_pass_rate": 0.8459821428571429
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 912,
+      "total_passed": 782,
+      "overall_pass_rate": 0.8574561403508771
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 752,
+      "overall_pass_rate": 0.8254665203073546
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 821,
+      "overall_pass_rate": 0.9031903190319032
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 649,
+      "overall_pass_rate": 0.7243303571428571
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 780,
+      "overall_pass_rate": 0.8609271523178808
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 910,
+      "total_passed": 810,
+      "overall_pass_rate": 0.8901098901098901
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 808,
+      "overall_pass_rate": 0.8898678414096917
+    },
+    {
+      "code_technique": "passive",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 811,
+      "overall_pass_rate": 0.9021134593993326
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 890,
+      "total_passed": 794,
+      "overall_pass_rate": 0.8921348314606742
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 900,
+      "total_passed": 752,
+      "overall_pass_rate": 0.8355555555555556
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 916,
+      "total_passed": 811,
+      "overall_pass_rate": 0.8853711790393013
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 895,
+      "total_passed": 798,
+      "overall_pass_rate": 0.8916201117318435
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 810,
+      "overall_pass_rate": 0.8719052744886975
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 729,
+      "overall_pass_rate": 0.8073089700996677
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 741,
+      "overall_pass_rate": 0.8215077605321508
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 776,
+      "overall_pass_rate": 0.8518111964873765
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 784,
+      "overall_pass_rate": 0.86438809261301
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 764,
+      "overall_pass_rate": 0.8479467258601554
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 912,
+      "total_passed": 784,
+      "overall_pass_rate": 0.8596491228070176
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 754,
+      "overall_pass_rate": 0.8303964757709251
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 829,
+      "overall_pass_rate": 0.9070021881838074
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 649,
+      "overall_pass_rate": 0.7243303571428571
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 790,
+      "overall_pass_rate": 0.8719646799116998
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 807,
+      "overall_pass_rate": 0.8926991150442478
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 802,
+      "overall_pass_rate": 0.8881506090808416
+    },
+    {
+      "code_technique": "highlight",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 818,
+      "overall_pass_rate": 0.9098998887652948
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 887,
+      "total_passed": 789,
+      "overall_pass_rate": 0.8895152198421646
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 900,
+      "total_passed": 744,
+      "overall_pass_rate": 0.8266666666666667
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 917,
+      "total_passed": 808,
+      "overall_pass_rate": 0.88113413304253
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 789,
+      "overall_pass_rate": 0.8805803571428571
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 929,
+      "total_passed": 810,
+      "overall_pass_rate": 0.8719052744886975
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 726,
+      "overall_pass_rate": 0.8039867109634552
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 736,
+      "overall_pass_rate": 0.8159645232815964
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 770,
+      "overall_pass_rate": 0.845225027442371
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 792,
+      "overall_pass_rate": 0.8712871287128713
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 763,
+      "overall_pass_rate": 0.8458980044345898
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 780,
+      "overall_pass_rate": 0.8609271523178808
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 753,
+      "overall_pass_rate": 0.829295154185022
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 824,
+      "overall_pass_rate": 0.9015317286652079
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 649,
+      "overall_pass_rate": 0.7243303571428571
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 779,
+      "overall_pass_rate": 0.8598233995584988
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 804,
+      "overall_pass_rate": 0.8893805309734514
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 805,
+      "overall_pass_rate": 0.8964365256124721
+    },
+    {
+      "code_technique": "remove",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 895,
+      "total_passed": 815,
+      "overall_pass_rate": 0.9106145251396648
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 892,
+      "total_passed": 784,
+      "overall_pass_rate": 0.8789237668161435
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 900,
+      "total_passed": 752,
+      "overall_pass_rate": 0.8355555555555556
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 916,
+      "total_passed": 805,
+      "overall_pass_rate": 0.87882096069869
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 895,
+      "total_passed": 781,
+      "overall_pass_rate": 0.8726256983240224
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 935,
+      "total_passed": 809,
+      "overall_pass_rate": 0.8652406417112299
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 724,
+      "overall_pass_rate": 0.8017718715393134
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 734,
+      "overall_pass_rate": 0.8137472283813747
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 766,
+      "overall_pass_rate": 0.8426842684268426
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 780,
+      "overall_pass_rate": 0.8599779492833517
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 759,
+      "overall_pass_rate": 0.8414634146341463
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 776,
+      "overall_pass_rate": 0.8593576965669989
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 749,
+      "overall_pass_rate": 0.8248898678414097
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 825,
+      "overall_pass_rate": 0.9026258205689278
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 642,
+      "overall_pass_rate": 0.7165178571428571
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 781,
+      "overall_pass_rate": 0.8620309050772627
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 799,
+      "overall_pass_rate": 0.8809261300992283
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 805,
+      "overall_pass_rate": 0.8904867256637168
+    },
+    {
+      "code_technique": "declarative",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 898,
+      "total_passed": 805,
+      "overall_pass_rate": 0.8964365256124721
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 779,
+      "overall_pass_rate": 0.8742985409652076
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 905,
+      "total_passed": 748,
+      "overall_pass_rate": 0.8265193370165745
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 916,
+      "total_passed": 807,
+      "overall_pass_rate": 0.881004366812227
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 887,
+      "total_passed": 785,
+      "overall_pass_rate": 0.8850056369785795
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 933,
+      "total_passed": 810,
+      "overall_pass_rate": 0.8681672025723473
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 722,
+      "overall_pass_rate": 0.8004434589800443
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 733,
+      "overall_pass_rate": 0.8171683389074693
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 747,
+      "overall_pass_rate": 0.8309232480533927
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 769,
+      "overall_pass_rate": 0.8630751964085297
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 893,
+      "total_passed": 758,
+      "overall_pass_rate": 0.8488241881298992
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 769,
+      "overall_pass_rate": 0.8516057585825028
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 912,
+      "total_passed": 745,
+      "overall_pass_rate": 0.8168859649122807
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 811,
+      "overall_pass_rate": 0.8921892189218922
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 643,
+      "overall_pass_rate": 0.7176339285714286
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 900,
+      "total_passed": 775,
+      "overall_pass_rate": 0.8611111111111112
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 794,
+      "overall_pass_rate": 0.8802660753880266
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 806,
+      "overall_pass_rate": 0.8915929203539823
+    },
+    {
+      "code_technique": "original",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 899,
+      "total_passed": 806,
+      "overall_pass_rate": 0.896551724137931
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 889,
+      "total_passed": 776,
+      "overall_pass_rate": 0.8728908886389202
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 907,
+      "total_passed": 750,
+      "overall_pass_rate": 0.8269018743109151
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 913,
+      "total_passed": 807,
+      "overall_pass_rate": 0.8838992332968236
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 895,
+      "total_passed": 777,
+      "overall_pass_rate": 0.8681564245810056
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 928,
+      "total_passed": 803,
+      "overall_pass_rate": 0.865301724137931
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 725,
+      "overall_pass_rate": 0.8028792912513842
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 739,
+      "overall_pass_rate": 0.8192904656319291
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 911,
+      "total_passed": 773,
+      "overall_pass_rate": 0.8485181119648738
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 905,
+      "total_passed": 775,
+      "overall_pass_rate": 0.856353591160221
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 756,
+      "overall_pass_rate": 0.8390677025527192
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 777,
+      "overall_pass_rate": 0.8547854785478548
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 749,
+      "overall_pass_rate": 0.8248898678414097
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 822,
+      "overall_pass_rate": 0.899343544857768
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 642,
+      "overall_pass_rate": 0.7165178571428571
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 906,
+      "total_passed": 773,
+      "overall_pass_rate": 0.8532008830022075
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 796,
+      "overall_pass_rate": 0.8805309734513275
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 904,
+      "total_passed": 804,
+      "overall_pass_rate": 0.8893805309734514
+    },
+    {
+      "code_technique": "verb",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 901,
+      "total_passed": 810,
+      "overall_pass_rate": 0.8990011098779135
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "declarative",
+      "total_tasks": 148,
+      "total_tests": 890,
+      "total_passed": 779,
+      "overall_pass_rate": 0.8752808988764045
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "rephrase",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 737,
+      "overall_pass_rate": 0.8161683277962348
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "original",
+      "total_tasks": 148,
+      "total_tests": 915,
+      "total_passed": 798,
+      "overall_pass_rate": 0.8721311475409836
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "passive",
+      "total_tasks": 148,
+      "total_tests": 891,
+      "total_passed": 780,
+      "overall_pass_rate": 0.8754208754208754
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "future",
+      "total_tasks": 148,
+      "total_tests": 924,
+      "total_passed": 806,
+      "overall_pass_rate": 0.8722943722943723
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "random",
+      "total_tasks": 148,
+      "total_tests": 897,
+      "total_passed": 715,
+      "overall_pass_rate": 0.7971014492753623
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "rename",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 733,
+      "overall_pass_rate": 0.8180803571428571
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "unrelated",
+      "total_tasks": 148,
+      "total_tests": 910,
+      "total_passed": 771,
+      "overall_pass_rate": 0.8472527472527472
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 771,
+      "overall_pass_rate": 0.8547671840354767
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "uppercase",
+      "total_tasks": 148,
+      "total_tests": 894,
+      "total_passed": 743,
+      "overall_pass_rate": 0.831096196868009
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "highlight",
+      "total_tasks": 148,
+      "total_tests": 909,
+      "total_passed": 768,
+      "overall_pass_rate": 0.8448844884488449
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "adversarial",
+      "total_tasks": 148,
+      "total_tests": 908,
+      "total_passed": 750,
+      "overall_pass_rate": 0.8259911894273128
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "active",
+      "total_tasks": 148,
+      "total_tests": 914,
+      "total_passed": 815,
+      "overall_pass_rate": 0.8916849015317286
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "task",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 638,
+      "overall_pass_rate": 0.7120535714285714
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "verb",
+      "total_tasks": 148,
+      "total_tests": 896,
+      "total_passed": 780,
+      "overall_pass_rate": 0.8705357142857143
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "lowercase",
+      "total_tasks": 148,
+      "total_tests": 894,
+      "total_passed": 795,
+      "overall_pass_rate": 0.889261744966443
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "remove",
+      "total_tasks": 148,
+      "total_tests": 903,
+      "total_passed": 791,
+      "overall_pass_rate": 0.875968992248062
+    },
+    {
+      "code_technique": "future",
+      "test_technique": "past",
+      "total_tasks": 148,
+      "total_tests": 902,
+      "total_passed": 804,
+      "overall_pass_rate": 0.8913525498891353
     }
   ]
 }
